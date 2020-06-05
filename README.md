@@ -1,4 +1,4 @@
-# Police Union Contracts, Parsed
+# Police Union Contracts
 
 ### Purpose
 This repo holds text files of police union contracts, scraped from www.checkthepolice.org and parsed using the OCR library [tesseract](https://github.com/tesseract-ocr/tessearct).
