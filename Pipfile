@@ -12,6 +12,7 @@ pypdf2 = "*"
 textract = "*"
 jupyterlab = "*"
 beautifulsoup4 = "*"
+pandas = "*"
 
 [requires]
 python_version = "3.8"
