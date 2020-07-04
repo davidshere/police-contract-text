@@ -4,6 +4,7 @@ import re
 from typing import Dict
 
 import requests
+import textract
 from bs4 import BeautifulSoup
 from bs4.element import Tag
 
@@ -178,6 +179,25 @@ def find_missing_docs(map_from_web, map_from_disk):
                             )
                         )
     return missing_files
+
+"""
+Utils for fetching and parsing PDF files
+"""
+def get_pdf_from_link(url):
+    if url.endswith('dl=0'):
+        url = url[:-1] + "1"
+
+    response = requests.get(url)
+    with open('/tmp/contract.pdf', 'wb') as f:
+        f.write(response.content)
+
+    try:
+        text_as_bytes = textract.process(f.name, method='tesseract', language='eng')
+        return text_as_bytes.decode()
+    except textract.exceptions.ShellError:
+        print(f"Failed to parse {url}")
+        return None
+
 
 """
 Utils for transforming between jurisdiction level to the state level
