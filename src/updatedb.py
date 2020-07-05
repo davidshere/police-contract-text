@@ -24,9 +24,18 @@ hard_coded_jurisdictions_and_links = {
 }
 
 if __name__ == "__main__":
-    jd_to_soup_map = utils.get_jurisdiction_and_link_soup()
+    ctp_soup = utils.fetch_check_the_police_soup()
+
+    jd_to_soup_map = utils.get_jurisdiction_and_link_soup(ctp_soup)
+
+    # We've got a few methods of pulling contract from checkthepolice.org
+    # 1. Look for jurisdictions with a check mark
     jd_to_doc_map = utils.get_jurisdictions_and_pdf_links(jd_to_soup_map)
+    # 2. Add jurisdictions that we know exist but that weren't caught above for some reason
     jd_to_doc_map.update(hard_coded_jurisdictions_and_links)
+    # 3. Add the smaller cities
+    jd_to_doc_map.update(utils.get_smaller_cities_mapping(ctp_soup))
+
 
     state_jd_pdf_map = utils.transform_from_jd_to_state(jd_to_doc_map)
     existing_files_map = utils.load_contract_paths()

@@ -11,7 +11,7 @@ from bs4.element import Tag
 BASE_URL = "https://www.checkthepolice.org"
 
 CITY_REGEX_PATTERN = re.compile(
-    r'(.*) (Metropolitan Police Department|Police Bureau|Sheriff\'s Office|Division of Police|Bureau of Police|Police Department).*')
+    r'(.*) (Metropolitan Police Department|Police Bureau|Sheriff\'s Office|Division of Police|Bureau of Police|Police Department|Police Union Contract|Sheriff\'s Department Union Contract|State Police Union Contract).*')
 
 """
 Some basic utils
@@ -33,38 +33,41 @@ states
 """
 
 STATE_CITY_MAP = {
-    "Hawaii": ["Honolulu"],
-    "New Mexico": ['Albuquerque'],
+    "Alaska": ['Anchorage'],
+    "Arizona": ['Chandler', 'Mesa', 'Phoenix', "Tucson"],
+
     "California": ['Anaheim', 'Bakersfield', 'Chula Vista', 'Fremont', 'Fresno', 'Glendale', 'Irvine', 'Long Beach',
                    'Los Angeles', 'Oakland', 'Riverside', 'Sacramento', 'San Diego', 'San Francisco', 'San Jose',
-                   'Santa Ana', 'Stockton'],
-    "Alaska": ['Anchorage'],
+                   'Santa Ana', 'Stockton', 'Berkeley', 'Beverly Hills', 'Burbank', 'Carlsbad', 'Chico', 'Costa Mesa', 'Cypress', 'Daly City' ,'East Palo Alto', 'Eureka', 'Hayward', 'Pasadena', 'Redwood City', 'Rialto', 'Richmond', 'San Leandro', 'San Mateo', 'Santa Barbara', 'Santa Cruz', 'Los Angeles County'],
     "Colorado": ['Aurora', "Denver"],
-    "Texas": ['Austin', 'Corpus Christi', 'Dallas', 'El Paso', 'Fort Worth', 'Houston', 'Laredo', 'San Antonio'],
-    "Maryland": ['Baltimore'],
-    "Louisiana": ['Baton Rouge'],
-    "Massachusetts": ['Boston'],
-    "New York": ['Buffalo', 'New York', 'Rochester'],
-    "Arizona": ['Chandler', 'Mesa', 'Phoenix', "Tucson"],
-    "Illinois": ['Chicago'],
-    "Michigan": ['Detroit'],
-    "Indiana": ["Fort Wayne", "Indianapolis"],
-    "Ohio": ['Cincinnati', 'Cleveland', 'Columbus', 'Toledo'],
-    "Nevada": ['Henderson', 'Las Vegas Metropolitan', 'North Las Vegas', 'Reno'],
     "Florida": ['Hialeah', 'Jacksonville', 'Miami', 'Orlando', 'St. Petersburg', 'Tampa'],
-    "New Jersey": ['Jersey City', 'Newark'],
-    "Nebraska": ['Lincoln', 'Omaha'],
-    "Kentucky": ['Louisville', 'Lexington'],
-    "Wisconsin": ['Madison', 'Milwaukee'],
-    "Tennessee": ['Memphis', 'Metropolitan Nashville'],
-    "Minnesota": ["Minneapolis", "St. Paul"],
-    "Oklahoma": ['Oklahoma City', "Tulsa"],
-    "Pennsylvania": ['Philadelphia', 'Pittsburgh'],
-    "Oregon": ['Portland'],
-    "Washington": ['Seattle', 'Spokane'],
-    "Missouri": ['St. Louis Metropolitan', 'Kansas City, MO'],
-    "Washington, DC": ["Washington DC Metropolitan"],
+    "Hawaii": ["Honolulu"],
+    "Illinois": ['Chicago'],
+    "Indiana": ["Fort Wayne", "Indianapolis"],
     "Kansas": ['Wichita'],
+    "Kentucky": ['Louisville', 'Lexington'],
+    "Louisiana": ['Baton Rouge'],
+    "Maryland": ['Baltimore'],
+    "Massachusetts": ['Boston', 'Norfolk'],
+    "Michigan": ['Detroit'],
+    "Minnesota": ["Minneapolis", "St. Paul", 'Duluth'],
+    "Missouri": ['St. Louis Metropolitan', 'Kansas City, MO'],
+    "Nebraska": ['Lincoln', 'Omaha'],
+    "Nevada": ['Henderson', 'Las Vegas Metropolitan', 'North Las Vegas', 'Reno'],
+    "New Hampshire": ['Durham'],
+    "New Jersey": ['Jersey City', 'Newark'],
+    "New Mexico": ['Albuquerque'],
+    "New York": ['Buffalo', 'New York', 'Rochester'],
+    "Ohio": ['Cincinnati', 'Cleveland', 'Columbus', 'Toledo'],
+    "Oklahoma": ['Oklahoma City', "Tulsa"],
+    "Oregon": ['Portland', 'Oregon State'],
+    "Pennsylvania": ['Philadelphia', 'Pittsburgh'],
+    "Tennessee": ['Memphis', 'Metropolitan Nashville'],
+    "Texas": ['Austin', 'Corpus Christi', 'Dallas', 'El Paso', 'Fort Worth', 'Houston', 'Laredo', 'San Antonio'],
+    "Washington": ['Seattle', 'Spokane'],
+    "Washington, DC": ["Washington DC Metropolitan"],
+    "Wisconsin": ['Madison', 'Milwaukee'],
+
 }
 
 CITY_TO_STATE_MAP = dict()
@@ -76,19 +79,21 @@ for state in STATE_CITY_MAP:
 Utils for fetching and parsing data from checkthepolice.org
 """
 
+def fetch_check_the_police_soup() -> BeautifulSoup:
+    db_page = f"{BASE_URL}/database"
 
-def get_jurisdiction_and_link_soup() -> Dict[str, Tag]:
+    base_page_html = requests.get(db_page).text
+    return BeautifulSoup(base_page_html, 'lxml')
+
+def get_jurisdiction_and_link_soup(base_page_soup: BeautifulSoup) -> Dict[str, Tag]:
     """
     Hits checkthepolice.org and returns a list of
     BeautifulSoup objects containing links to pdf contracts
     :return:
     """
-    db_page = f"{BASE_URL}/database"
-
-    base_page_html = requests.get(db_page).text
-    base_page_soup = BeautifulSoup(base_page_html, 'lxml')
     contract_soups = list(base_page_soup.find_all('div', {'class': 'sqs-block-content'}))[0]
     jurisdiction_to_soup_map = {}
+
     for jd in contract_soups:
         if jd.strong and '✔️' in jd.strong.text:
             try:
@@ -124,13 +129,26 @@ def parse_one_jurisdiction(jd: BeautifulSoup) -> Dict[str, str]:
     return link_map
 
 
-def get_jurisdictions_and_pdf_links(jurisdictions: Dict[str, Tag]) -> Dict[str, Dict[str, str]]:
+def get_jurisdictions_and_pdf_links(jurisdictions: Dict[str, Tag],) -> Dict[str, Dict[str, str]]:
     all_jurisdiction_links = dict()
     for jd, soup_data in jurisdictions.items():
         all_jurisdiction_links[jd] = parse_one_jurisdiction(soup_data)
 
     return all_jurisdiction_links
 
+def get_smaller_cities_mapping(soup):
+    output = collections.defaultdict(dict)
+    for jurisdiction in soup.find_all('a'):
+        regex_match = CITY_REGEX_PATTERN.findall(jurisdiction.text)
+        if regex_match:
+            jurisdiction_name = regex_match[0][0].split(', ')[0]
+            href = jurisdiction['href']
+            if href.startswith('http') or href.startswith('www'):
+                pdf_url = href
+            else:
+                pdf_url = f"https://checkthepolice.org{href}"
+            output[jurisdiction_name] = {'pdfUrl': pdf_url}
+    return output
 
 """
 Utils for reading the existing contract directory and diffing it
