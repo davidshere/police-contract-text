@@ -33,6 +33,7 @@ states
 """
 
 STATE_CITY_MAP = {
+    "Hawaii": ["Honolulu"],
     "New Mexico": ['Albuquerque'],
     "California": ['Anaheim', 'Bakersfield', 'Chula Vista', 'Fremont', 'Fresno', 'Glendale', 'Irvine', 'Long Beach',
                    'Los Angeles', 'Oakland', 'Riverside', 'Sacramento', 'San Diego', 'San Francisco', 'San Jose',
@@ -44,16 +45,16 @@ STATE_CITY_MAP = {
     "Louisiana": ['Baton Rouge'],
     "Massachusetts": ['Boston'],
     "New York": ['Buffalo', 'New York', 'Rochester'],
-    "Arizona": ['Chandler', 'Phoenix', "Tucson"],
+    "Arizona": ['Chandler', 'Mesa', 'Phoenix', "Tucson"],
     "Illinois": ['Chicago'],
     "Michigan": ['Detroit'],
     "Indiana": ["Fort Wayne", "Indianapolis"],
-    "Ohio": ['Cincinnati', 'Cleveland', 'Columbus'],
+    "Ohio": ['Cincinnati', 'Cleveland', 'Columbus', 'Toledo'],
     "Nevada": ['Henderson', 'Las Vegas Metropolitan', 'North Las Vegas', 'Reno'],
     "Florida": ['Hialeah', 'Jacksonville', 'Miami', 'Orlando', 'St. Petersburg', 'Tampa'],
     "New Jersey": ['Jersey City', 'Newark'],
     "Nebraska": ['Lincoln', 'Omaha'],
-    "Kentucky": ['Louisville'],
+    "Kentucky": ['Louisville', 'Lexington'],
     "Wisconsin": ['Madison', 'Milwaukee'],
     "Tennessee": ['Memphis', 'Metropolitan Nashville'],
     "Minnesota": ["Minneapolis", "St. Paul"],
@@ -61,7 +62,7 @@ STATE_CITY_MAP = {
     "Pennsylvania": ['Philadelphia', 'Pittsburgh'],
     "Oregon": ['Portland'],
     "Washington": ['Seattle', 'Spokane'],
-    "Missouri": ['St. Louis Metropolitan'],
+    "Missouri": ['St. Louis Metropolitan', 'Kansas City, MO'],
     "Washington, DC": ["Washington DC Metropolitan"],
     "Kansas": ['Wichita'],
 }
@@ -79,7 +80,7 @@ Utils for fetching and parsing data from checkthepolice.org
 def get_jurisdiction_and_link_soup() -> Dict[str, Tag]:
     """
     Hits checkthepolice.org and returns a list of
-    BeautifulSoup objects containing
+    BeautifulSoup objects containing links to pdf contracts
     :return:
     """
     db_page = f"{BASE_URL}/database"
@@ -95,6 +96,11 @@ def get_jurisdiction_and_link_soup() -> Dict[str, Tag]:
                 jurisdiction_to_soup_map[jurisdiction_name[0]] = jd
             except IndexError:
                 print('failed', jd.strong.text)
+        elif 'does not have a Police Union Contract' in jd.text:
+            continue
+        else:
+            print('**')
+            print(jd.text)
     return jurisdiction_to_soup_map
 
 
@@ -122,6 +128,7 @@ def get_jurisdictions_and_pdf_links(jurisdictions: Dict[str, Tag]) -> Dict[str, 
     all_jurisdiction_links = dict()
     for jd, soup_data in jurisdictions.items():
         all_jurisdiction_links[jd] = parse_one_jurisdiction(soup_data)
+
     return all_jurisdiction_links
 
 
