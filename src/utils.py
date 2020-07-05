@@ -11,12 +11,31 @@ from bs4.element import Tag
 BASE_URL = "https://www.checkthepolice.org"
 
 CITY_REGEX_PATTERN = re.compile(
-    r'(.*) (Metropolitan Police Department|Police Bureau|Sheriff\'s Office|Division of Police|Bureau of Police|Police Department|Police Union Contract|Sheriff\'s Department Union Contract|State Police Union Contract).*')
+    r'(.*) (Metropolitan Police Department|Police Bureau|Sheriff\'s Office|Division of Police|Bureau of Police|Police Department|Police Union Contract|Sheriff\'s Department Union Contract|State Police Union Contract|Police Bill of Rights)')
 
 """
 Some basic utils
 """
 
+# The HTML isn't we're pulling from isn't entirely consistent, so we've got a "good enough"
+# scraper and this hard coded map for things that we don't catch
+hard_coded_jurisdictions_and_links = {
+    'Honolulu': {
+        'Police Union Contract': 'https://www.checkthepolice.org/s/Honolulu-Police-Contract.pdf',
+    },
+    'Kansas City, MO': {
+        'Police Union Contract': 'https://www.checkthepolice.org/s/Kansas-City-MO-Police-Contract.pdf'
+    },
+    'Lexington': {
+        'Police Union Contract': 'https://www.checkthepolice.org/s/Lexington-Police-Contract.pdf'
+    },
+    'Mesa': {
+        'Police Union Contract': 'https://www.checkthepolice.org/s/Mesa-Police-Union-Contract.pdf'
+    },
+    'Toledo': {
+        'Police Union Contract': 'https://www.checkthepolice.org/s/Toledo-Police-Contract.pdf'
+    },
+}
 
 
 def recursive_dd():
@@ -40,6 +59,7 @@ STATE_CITY_MAP = {
                    'Los Angeles', 'Oakland', 'Riverside', 'Sacramento', 'San Diego', 'San Francisco', 'San Jose',
                    'Santa Ana', 'Stockton', 'Berkeley', 'Beverly Hills', 'Burbank', 'Carlsbad', 'Chico', 'Costa Mesa', 'Cypress', 'Daly City' ,'East Palo Alto', 'Eureka', 'Hayward', 'Pasadena', 'Redwood City', 'Rialto', 'Richmond', 'San Leandro', 'San Mateo', 'Santa Barbara', 'Santa Cruz', 'Los Angeles County'],
     "Colorado": ['Aurora', "Denver"],
+    "Delaware": [],
     "Florida": ['Hialeah', 'Jacksonville', 'Miami', 'Orlando', 'St. Petersburg', 'Tampa'],
     "Hawaii": ["Honolulu"],
     "Illinois": ['Chicago'],
@@ -62,10 +82,13 @@ STATE_CITY_MAP = {
     "Oklahoma": ['Oklahoma City', "Tulsa"],
     "Oregon": ['Portland', 'Oregon State'],
     "Pennsylvania": ['Philadelphia', 'Pittsburgh'],
+    "Rhode Island": [],
     "Tennessee": ['Memphis', 'Metropolitan Nashville'],
     "Texas": ['Austin', 'Corpus Christi', 'Dallas', 'El Paso', 'Fort Worth', 'Houston', 'Laredo', 'San Antonio'],
+    "Virginia": [],
     "Washington": ['Seattle', 'Spokane'],
     "Washington, DC": ["Washington DC Metropolitan"],
+    "West Virginia": [],
     "Wisconsin": ['Madison', 'Milwaukee'],
 
 }
@@ -101,11 +124,7 @@ def get_jurisdiction_and_link_soup(base_page_soup: BeautifulSoup) -> Dict[str, T
                 jurisdiction_to_soup_map[jurisdiction_name[0]] = jd
             except IndexError:
                 print('failed', jd.strong.text)
-        elif 'does not have a Police Union Contract' in jd.text:
-            continue
-        else:
-            print('**')
-            print(jd.text)
+
     return jurisdiction_to_soup_map
 
 
@@ -124,19 +143,18 @@ def parse_one_jurisdiction(jd: BeautifulSoup) -> Dict[str, str]:
             continue
         else:
             url = href
-
         link_map[category] = url
     return link_map
 
 
-def get_jurisdictions_and_pdf_links(jurisdictions: Dict[str, Tag],) -> Dict[str, Dict[str, str]]:
+def get_jurisdictions_and_pdf_links(jurisdictions: Dict[str, Tag]) -> Dict[str, Dict[str, str]]:
     all_jurisdiction_links = dict()
     for jd, soup_data in jurisdictions.items():
         all_jurisdiction_links[jd] = parse_one_jurisdiction(soup_data)
 
     return all_jurisdiction_links
 
-def get_smaller_cities_mapping(soup):
+def get_smaller_cities_and_bor_mapping(soup):
     output = collections.defaultdict(dict)
     for jurisdiction in soup.find_all('a'):
         regex_match = CITY_REGEX_PATTERN.findall(jurisdiction.text)
@@ -227,7 +245,6 @@ def get_pdf_from_link(url):
 """
 Utils for transforming between jurisdiction level to the state level
 """
-
 
 def transform_from_jd_to_state(
         jurisdiction_map: Dict[str, Dict[str, str]]
