@@ -29,7 +29,7 @@ def merge_dicts(pdf_map, file_map):
     return merged
 
 
-def add_tags_to_directory(tags):
+def add_tags_to_directory(tags, directory):
     for tag in tags:
         document_name = tag['associated filename'][:-4]
 
@@ -54,7 +54,7 @@ def add_tags_to_directory(tags):
 
     return directory
 
-if __name__ == "__main__":
+def generate():
     soup = utils.fetch_check_the_police_soup()
     jd_to_soup_map = utils.get_jurisdiction_and_link_soup(soup)
     jd_to_doc_map = utils.get_jurisdictions_and_pdf_links(jd_to_soup_map)
@@ -69,6 +69,33 @@ if __name__ == "__main__":
     df['associated filename'].fillna('', inplace=True)
     tags = df.to_dict(orient='records')
 
-    directory = add_tags_to_directory(tags)
+    directory = add_tags_to_directory(tags, directory)
+
+    # we've got some phantom records in here, data that
+    # is missing for one reason or another. I know this is
+    # a mess. I'm sorry.
+    to_delete = []
+    for state, jurisdictions in directory.items():
+        for jurisdiction, documents in jurisdictions.items():
+            for document in documents:
+                if document == "":
+                    to_delete.append((state, jurisdiction, document))
+
+    for state, jd, doc in to_delete:
+        del directory[state][jd]
+
+    state_to_delete = []
+    for state, jurisdictions in directory.items():
+        # Ack!!
+        if jurisdictions == dict() or state == 'NewMexico':
+            state_to_delete.append(state)
+    for state in state_to_delete:
+        del directory[state]
+    import pdb
+    pdb.set_trace()
+    return directory
+
+if __name__ == "__main__":
+    directory = generate()
     with open('directory.json', 'w') as f:
         json.dump(directory, f, indent=4)
