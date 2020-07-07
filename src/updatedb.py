@@ -105,6 +105,13 @@ if __name__ == "__main__":
 
     # Go back and split up files that are too big
     directory = split_large_files(directory)
+
+    # Add filenames
+    for state, jurisdictions in directory.items():
+        for jurisdiction, documents in jurisdictions.items():
+            for document, data in documents.items():
+                data['title'] = f"{jurisdiction} {document}"
+
     with open('directory.json', 'w') as f:
         json.dump(directory, f, indent=4)
 

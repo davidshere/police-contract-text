@@ -92,11 +92,7 @@ def generate():
     for state in state_to_delete:
         del directory[state]
 
-    # Add filenames
-    for state, jurisdictions in directory.items():
-        for jurisdiction, documents in jurisdictions.items():
-            for document, data in documents.items():
-                data['title'] = f"{jurisdiction} {document}"
+
 
     return directory
 
