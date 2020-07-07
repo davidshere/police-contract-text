@@ -91,8 +91,13 @@ def generate():
             state_to_delete.append(state)
     for state in state_to_delete:
         del directory[state]
-    import pdb
-    pdb.set_trace()
+
+    # Add filenames
+    for state, jurisdictions in directory.items():
+        for jurisdiction, documents in jurisdictions.items():
+            for document, data in documents.items():
+                data['title'] = f"{jurisdiction} {document}"
+
     return directory
 
 if __name__ == "__main__":
