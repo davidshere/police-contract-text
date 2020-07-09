@@ -93,10 +93,12 @@ def generate():
         del directory[state]
 
 
-
     return directory
 
 if __name__ == "__main__":
     directory = generate()
+
+    
+
     with open('directory.json', 'w') as f:
         json.dump(directory, f, indent=4)

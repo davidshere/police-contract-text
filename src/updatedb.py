@@ -112,8 +112,17 @@ if __name__ == "__main__":
             for document, data in documents.items():
                 data['title'] = f"{jurisdiction} {document}"
 
+    # make the pdfMap
+    pdf_map = utils.recursive_dd()
+    for state, jurisdictions in directory.items():
+        for jurisdiction, documents in jurisdictions.items():
+            for document, data in documents.items():
+                pdf_map[f"{state}/{jurisdiction}/{document}.txt"] = data['pdfUrl']
+
     with open('directory.json', 'w') as f:
         json.dump(directory, f, indent=4)
 
+    with open('pdf_map.json', 'w') as f:
+        json.dump(pdf_map, f, indent=4)
 
 

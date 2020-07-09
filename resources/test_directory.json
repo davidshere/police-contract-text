@@ -1,0 +1,15 @@
+{
+    "Illinois": {
+        "State": {
+            "Illinois Police Bill of Rights": {
+                "textUrl": "location.txt",
+                "pdfUrl": "file.pdf",
+                "tags": [
+                    "does bad things",
+                    "is a real meanie"
+                ],
+                "title": "police union contract"
+            }
+        }
+    }
+}

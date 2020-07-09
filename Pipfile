@@ -13,6 +13,7 @@ textract = "*"
 jupyterlab = "*"
 beautifulsoup4 = "*"
 pandas = "*"
+pytest = "*"
 
 [requires]
 python_version = "3.8"
