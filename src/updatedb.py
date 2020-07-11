@@ -1,3 +1,4 @@
+import collections
 import glob
 import json
 import pathlib
@@ -119,10 +120,22 @@ if __name__ == "__main__":
             for document, data in documents.items():
                 pdf_map[f"{state}/{jurisdiction}/{document}.txt"] = data['pdfUrl']
 
+    # make the tag map
+    tag_map = collections.defaultdict(list)
+    for state, jurisdictions in directory.items():
+        for jurisdiction, documents in jurisdictions.items():
+            for document, data in documents.items():
+                for tag in data['tags']:
+                    tag_map[tag].append({'pdfUrl': data['pdfUrl'], 'textUrl': data['textUrl']})
+
+
     with open('directory.json', 'w') as f:
         json.dump(directory, f, indent=4)
 
     with open('pdf_map.json', 'w') as f:
         json.dump(pdf_map, f, indent=4)
+
+    with open('tag_map.json', 'w') as f:
+        json.dump(tag_map, f, indent=4)
 
 
