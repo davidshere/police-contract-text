@@ -1,837 +1,243 @@
 {
-    "Illinois": {
-        "State": {
-            "Illinois Police Bill of Rights": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Illinois/State/Illinois%20Police%20Bill%20of%20Rights.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Illinois-PBR.pdf",
-                "tags": [
-                    "Gives officers unfair access to information",
-                    "Restricts/Delays Interrogations"
-                ],
-                "title": "State Illinois Police Bill of Rights"
-            }
-        },
-        "Chicago": {
-            "Police Union Contract Accountability Fact Sheet": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Illinois/Chicago/Police%20Union%20Contract%20Accountability%20Fact%20Sheet.txt",
-                "pdfUrl": "https://www.dropbox.com/s/2o3dtucoap7fw7h/Chicago%20Police%20Contract%20Police%20Accountability%20Review%207.10.15.pdf?dl=0",
+    "Alaska": {
+        "Anchorage": {
+            "Anchorage Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Alaska/Anchorage/Anchorage%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Anchorage-police-contract.PDF",
+                "title": "Anchorage Police Union Contract",
                 "tags": [
                     "Erases misconduct records",
+                    "Requires City Pay for Misconduct",
                     "Gives officers unfair access to information",
                     "Limits Oversight / Discipline",
                     "Restricts/Delays Interrogations"
-                ],
-                "title": "Chicago Police Union Contract Accountability Fact Sheet"
-            },
-            "Police Union Contract 1": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Illinois/Chicago/Police%20Union%20Contract%201.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Chicagopolicecontract.pdf",
-                "tags": [
-                    "Requires City Pay for Misconduct",
-                    "Gives officers unfair access to information",
-                    "Restricts/Delays Interrogations",
-                    "Erases misconduct records",
-                    "Limits Oversight / Discipline"
-                ],
-                "title": "Chicago Police Union Contract 1"
-            },
-            "Police Union Contract 2": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Illinois/Chicago/Police%20Union%20Contract%202.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Chicagopolicecontract.pdf",
-                "tags": [
-                    "Requires City Pay for Misconduct",
-                    "Gives officers unfair access to information",
-                    "Restricts/Delays Interrogations",
-                    "Erases misconduct records",
-                    "Limits Oversight / Discipline"
-                ],
-                "title": "Chicago Police Union Contract 2"
+                ]
             }
         }
     },
-    "Arizona": {
+      "Arizona": {
         "Phoenix": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Arizona/Phoenix/Police%20Union%20Contract.txt",
+            "Phoenix Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Arizona/Phoenix/Phoenix%20Police%20Union%20Contract.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/Phoenix-police-union-contract.pdf",
+                "title": "Phoenix Police Union Contract",
                 "tags": [
+                    "Erases misconduct records",
                     "Requires City Pay for Misconduct",
                     "Gives officers unfair access to information",
-                    "Restricts/Delays Interrogations",
-                    "Erases misconduct records",
-                    "Limits Oversight / Discipline"
-                ],
-                "title": "Phoenix Police Union Contract"
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations"
+                ]
             }
         },
         "Chandler": {
-            "sergeant's": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Arizona/Chandler/sergeant%27s.txt",
+            "Chandler sergeant's": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Arizona/Chandler/Chandler%20sergeant%27s.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/Chandler-police-sergeants-contract.pdf",
-                "tags": [
-                    "Gives officers unfair access to information",
-                    "Restricts/Delays Interrogations"
-                ],
-                "title": "Chandler sergeant's"
+                "title": "Chandler sergeant's",
+                "tags": []
             },
-            "police officers": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Arizona/Chandler/police%20officers.txt",
+            "Chandler police officers": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Arizona/Chandler/Chandler%20police%20officers.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/Chandler-police-contract.pdf",
+                "title": "Chandler police officers",
                 "tags": [
-                    "Erases misconduct records",
-                    "Gives officers unfair access to information",
                     "Limits Oversight / Discipline",
+                    "Gives officers unfair access to information",
+                    "Erases misconduct records",
                     "Restricts/Delays Interrogations"
-                ],
-                "title": "Chandler police officers"
+                ]
             }
         },
         "Tucson": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Arizona/Tucson/Police%20Union%20Contract.txt",
+            "Tucson Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Arizona/Tucson/Tucson%20Police%20Union%20Contract.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/Tucson-police-contract.pdf",
+                "title": "Tucson Police Union Contract",
                 "tags": [
+                    "Disqualifies Complaints",
                     "Requires City Pay for Misconduct",
                     "Gives officers unfair access to information",
-                    "Restricts/Delays Interrogations",
                     "Limits Oversight / Discipline",
-                    "Disqualifies Complaints"
-                ],
-                "title": "Tucson Police Union Contract"
+                    "Restricts/Delays Interrogations"
+                ]
             }
         },
         "Mesa": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Arizona/Mesa/Police%20Union%20Contract.txt",
+            "Mesa Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Arizona/Mesa/Mesa%20Police%20Union%20Contract.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/Mesa-Police-Union-Contract.pdf",
-                "tags": [
-                    "Limits Oversight / Discipline"
-                ],
-                "title": "Mesa Police Union Contract"
+                "title": "Mesa Police Union Contract",
+                "tags": []
             }
         }
     },
-    "Indiana": {
-        "Fort Wayne": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Indiana/Fort%20Wayne/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Fort-Wayne-Police-contract.pdf",
-                "tags": [
-                    "Gives officers unfair access to information",
-                    "Limits Oversight / Discipline",
-                    "Restricts/Delays Interrogations"
-                ],
-                "title": "Fort Wayne Police Union Contract"
-            }
-        },
-        "Indianapolis": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Indiana/Indianapolis/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Indianapolispolicecontract.pdf",
-                "tags": [
-                    "Gives officers unfair access to information",
-                    "Limits Oversight / Discipline",
-                    "Disqualifies Complaints"
-                ],
-                "title": "Indianapolis Police Union Contract"
-            }
-        }
-    },
-    "Tennessee": {
-        "Metropolitan Nashville": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Tennessee/Metropolitan%20Nashville/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Nashville-police-contract.pdf",
-                "title": "Metropolitan Nashville Police Union Contract",
-                "tags": {}
-            }
-        },
-        "Memphis": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Tennessee/Memphis/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Memphis-Police-Contract.pdf",
-                "tags": [
-                    "Erases misconduct records",
-                    "Gives officers unfair access to information",
-                    "Limits Oversight / Discipline",
-                    "Restricts/Delays Interrogations"
-                ],
-                "title": "Memphis Police Union Contract"
-            }
-        }
-    },
-    "Maryland": {
-        "Baltimore": {
-            "non supervisors": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Maryland/Baltimore/non%20supervisors.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Baltimore-police-contract-14-16.pdf",
-                "tags": [
-                    "Erases misconduct records",
-                    "Requires City Pay for Misconduct",
-                    "Restricts/Delays Interrogations",
-                    "Limits Oversight / Discipline"
-                ],
-                "title": "Baltimore non supervisors"
-            },
-            "supervisors": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Maryland/Baltimore/supervisors.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Baltimore-police-sergeants-contract-11.pdf",
-                "tags": [
-                    "Erases misconduct records",
-                    "Requires City Pay for Misconduct",
-                    "Restricts/Delays Interrogations",
-                    "Limits Oversight / Discipline"
-                ],
-                "title": "Baltimore supervisors"
-            }
-        }
-    },
-    "Pennsylvania": {
-        "Pittsburgh": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Pennsylvania/Pittsburgh/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Pittsburg-contract.pdf",
-                "tags": [
-                    "Erases misconduct records",
-                    "Limits Oversight / Discipline",
-                    "Requires City Pay for Misconduct"
-                ],
-                "title": "Pittsburgh Police Union Contract"
-            }
-        },
-        "Philadelphia": {
-            "original contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Pennsylvania/Philadelphia/original%20contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/2010_Master_FOP_Contract_-_Police_booklet.pdf",
-                "tags": [
-                    "Erases misconduct records",
-                    "Limits Oversight / Discipline"
-                ],
-                "title": "Philadelphia original contract"
-            },
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Pennsylvania/Philadelphia/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Philadelphia-police-union-contract.pdf",
-                "title": "Philadelphia Police Union Contract",
-                "tags": {}
-            }
-        }
-    },
-    "Nebraska": {
-        "Omaha": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Nebraska/Omaha/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Omaha-police-contract.pdf",
-                "tags": [
-                    "Erases misconduct records",
-                    "Limits Oversight / Discipline",
-                    "Disqualifies Complaints",
-                    "Restricts/Delays Interrogations"
-                ],
-                "title": "Omaha Police Union Contract"
-            }
-        }
-    },
-    "Ohio": {
-        "Toledo": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Ohio/Toledo/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Toledo-Police-Contract.pdf",
-                "tags": [
-                    "Erases misconduct records",
-                    "Limits Oversight / Discipline",
-                    "Disqualifies Complaints",
-                    "Restricts/Delays Interrogations"
-                ],
-                "title": "Toledo Police Union Contract"
-            }
-        },
-        "Columbus": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Ohio/Columbus/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/FOP-OLC-Contract-2017-2020-1.pdf",
-                "tags": [
-                    "Requires City Pay for Misconduct",
-                    "Gives officers unfair access to information",
-                    "Restricts/Delays Interrogations",
-                    "Limits Oversight / Discipline",
-                    "Disqualifies Complaints"
-                ],
-                "title": "Columbus Police Union Contract"
-            }
-        },
-        "Cincinnati": {
-            "supervisors": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Ohio/Cincinnati/supervisors.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Cincinnatipolicesupervisorscontract.pdf",
-                "tags": [
-                    "Erases misconduct records",
-                    "Gives officers unfair access to information",
-                    "Limits Oversight / Discipline"
-                ],
-                "title": "Cincinnati supervisors"
-            },
-            "non-supervisors": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Ohio/Cincinnati/non-supervisors.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Cincinnatipolicenonsupervisorscontract.pdf",
-                "tags": [
-                    "Erases misconduct records",
-                    "Gives officers unfair access to information",
-                    "Limits Oversight / Discipline"
-                ],
-                "title": "Cincinnati non-supervisors"
-            }
-        },
-        "Cleveland": {
-            "supervisors": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Ohio/Cleveland/supervisors.txt",
-                "pdfUrl": "https://www.dropbox.com/s/50br29dv446cgmk/Cleveland%20police%20supervisors%20contract.pdf?dl=0",
-                "tags": [
-                    "Disqualifies Complaints"
-                ],
-                "title": "Cleveland supervisors"
-            },
-            "non-supervisors": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Ohio/Cleveland/non-supervisors.txt",
-                "pdfUrl": "https://www.dropbox.com/s/b26fdto7ddyzx8r/Cleveland%20police%20non%20supervisors%20contract.pdf?dl=0",
-                "tags": [
-                    "Gives officers unfair access to information",
-                    "Restricts/Delays Interrogations",
-                    "Erases misconduct records",
-                    "Limits Oversight / Discipline",
-                    "Disqualifies Complaints"
-                ],
-                "title": "Cleveland non-supervisors"
-            }
-        }
-    },
-    "Colorado": {
-        "Aurora": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Colorado/Aurora/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Aurora-police-contract.pdf",
-                "title": "Aurora Police Union Contract",
-                "tags": {}
-            }
-        },
-        "Denver": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Colorado/Denver/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Denver-police-contract.PDF",
-                "title": "Denver Police Union Contract",
-                "tags": {}
-            }
-        }
-    },
-    "New Jersey": {
-        "Jersey City": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/New%20Jersey/Jersey%20City/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Jersey-City-Police-Contract.pdf",
-                "tags": [
-                    "Limits Oversight / Discipline",
-                    "Restricts/Delays Interrogations",
-                    "Requires City Pay for Misconduct",
-                    "Disqualifies Complaints"
-                ],
-                "title": "Jersey City Police Union Contract"
-            }
-        },
-        "Newark": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/New%20Jersey/Newark/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Newark-police-supervisors-contract.pdf",
-                "tags": [
-                    "Limits Oversight / Discipline",
-                    "Requires City Pay for Misconduct"
-                ],
-                "title": "Newark Police Union Contract"
-            }
-        }
-    },
-    "Alaska": {
-        "Anchorage": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Alaska/Anchorage/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Anchorage-police-contract.PDF",
-                "tags": [
-                    "Requires City Pay for Misconduct",
-                    "Gives officers unfair access to information",
-                    "Restricts/Delays Interrogations",
-                    "Erases misconduct records",
-                    "Limits Oversight / Discipline"
-                ],
-                "title": "Anchorage Police Union Contract"
-            }
-        }
-    },
-    "Oklahoma": {
-        "Tulsa": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Oklahoma/Tulsa/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Tulsa-Police-Contract.pdf",
-                "tags": [
-                    "Erases misconduct records",
-                    "Gives officers unfair access to information",
-                    "Limits Oversight / Discipline",
-                    "Restricts/Delays Interrogations"
-                ],
-                "title": "Tulsa Police Union Contract"
-            }
-        },
-        "Oklahoma City": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Oklahoma/Oklahoma%20City/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Oklahoma-City-police-contract.pdf",
-                "tags": [
-                    "Gives officers unfair access to information",
-                    "Limits Oversight / Discipline",
-                    "Requires City Pay for Misconduct",
-                    "Restricts/Delays Interrogations"
-                ],
-                "title": "Oklahoma City Police Union Contract"
-            }
-        }
-    },
-    "Washington": {
-        "Spokane": {
-            "pt. 2": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Washington/Spokane/pt.%202.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Spokanepolicecontract2.PDF",
-                "tags": [
-                    "Erases misconduct records",
-                    "Limits Oversight / Discipline",
-                    "Disqualifies Complaints",
-                    "Restricts/Delays Interrogations"
-                ],
-                "title": "Spokane pt. 2"
-            }
-        },
-        "Seattle": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Washington/Seattle/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.seattle.gov/personnel/resources/pubs/SPOG_CBA_2015-2020.pdf",
-                "tags": [
-                    "Requires City Pay for Misconduct",
-                    "Gives officers unfair access to information",
-                    "Restricts/Delays Interrogations",
-                    "Erases misconduct records",
-                    "Limits Oversight / Discipline",
-                    "Disqualifies Complaints"
-                ],
-                "title": "Seattle Police Union Contract"
-            }
-        }
-    },
-    "Washington, DC": {
-        "Washington DC Metropolitan": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Washington%2C%20DC/Washington%20DC%20Metropolitan/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/MPD-FOP-CBA-FY-2013-2017_r.pdf",
-                "tags": [
-                    "Requires City Pay for Misconduct",
-                    "Gives officers unfair access to information",
-                    "Restricts/Delays Interrogations",
-                    "Erases misconduct records",
-                    "Limits Oversight / Discipline",
-                    "Disqualifies Complaints"
-                ],
-                "title": "Washington DC Metropolitan Police Union Contract"
-            }
-        }
-    },
-    "Hawaii": {
-        "Honolulu": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Hawaii/Honolulu/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Honolulu-Police-Contract.pdf",
-                "tags": [
-                    "Erases misconduct records",
-                    "Gives officers unfair access to information",
-                    "Limits Oversight / Discipline",
-                    "Restricts/Delays Interrogations"
-                ],
-                "title": "Honolulu Police Union Contract"
-            }
-        }
-    },
-    "Minnesota": {
-        "St. Paul": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Minnesota/St.%20Paul/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/StPaulcontract.pdf",
-                "tags": [
-                    "Erases misconduct records",
-                    "Limits Oversight / Discipline",
-                    "Requires City Pay for Misconduct",
-                    "Restricts/Delays Interrogations"
-                ],
-                "title": "St. Paul Police Union Contract"
-            }
-        },
-        "State": {
-            "Minnesota Police Bill of Rights": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Minnesota/State/Minnesota%20Police%20Bill%20of%20Rights.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Minnesota-PBR.pdf",
-                "tags": [
-                    "Gives officers unfair access to information",
-                    "Limits Oversight / Discipline",
-                    "Restricts/Delays Interrogations"
-                ],
-                "title": "State Minnesota Police Bill of Rights"
-            }
-        }
-    },
-    "Kansas": {
-        "Wichita": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Kansas/Wichita/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Wichita-police-contract.pdf",
-                "tags": [
-                    "Erases misconduct records",
-                    "Gives officers unfair access to information",
-                    "Restricts/Delays Interrogations",
-                    "Requires City Pay for Misconduct"
-                ],
-                "title": "Wichita Police Union Contract"
-            }
-        }
-    },
-    "Texas": {
-        "Houston": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Texas/Houston/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Houstonpolicecontract.pdf",
-                "tags": [
-                    "Gives officers unfair access to information",
-                    "Restricts/Delays Interrogations",
-                    "Erases misconduct records",
-                    "Limits Oversight / Discipline",
-                    "Disqualifies Complaints"
-                ],
-                "title": "Houston Police Union Contract"
-            }
-        },
-        "Laredo": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Texas/Laredo/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Laredo-Police-Contract.pdf",
-                "tags": [
-                    "Requires City Pay for Misconduct",
-                    "Gives officers unfair access to information",
-                    "Restricts/Delays Interrogations",
-                    "Erases misconduct records",
-                    "Limits Oversight / Discipline"
-                ],
-                "title": "Laredo Police Union Contract"
-            }
-        },
-        "Austin": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Texas/Austin/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/AustinPoliceContract.pdf",
-                "tags": [
-                    "Requires City Pay for Misconduct",
-                    "Gives officers unfair access to information",
-                    "Restricts/Delays Interrogations",
-                    "Erases misconduct records",
-                    "Limits Oversight / Discipline",
-                    "Disqualifies Complaints"
-                ],
-                "title": "Austin Police Union Contract"
-            }
-        },
-        "Corpus Christi": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Texas/Corpus%20Christi/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Corpus-Christie-Police-Contract-uiao.pdf",
-                "tags": [
-                    "Gives officers unfair access to information",
-                    "Limits Oversight / Discipline",
-                    "Requires City Pay for Misconduct",
-                    "Restricts/Delays Interrogations"
-                ],
-                "title": "Corpus Christi Police Union Contract"
-            }
-        },
-        "San Antonio": {
-            "Police Union Contract 1": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Texas/San%20Antonio/Police%20Union%20Contract%201.txt",
-                "pdfUrl": "http://www.sanantonio.gov/portals/0/files/atty/CollectiveBargaining/PoliceCBA2016-2021.pdf",
-                "tags": [
-                    "Requires City Pay for Misconduct",
-                    "Gives officers unfair access to information",
-                    "Restricts/Delays Interrogations",
-                    "Erases misconduct records",
-                    "Limits Oversight / Discipline",
-                    "Disqualifies Complaints"
-                ],
-                "title": "San Antonio Police Union Contract 1"
-            },
-            "Police Union Contract 2": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Texas/San%20Antonio/Police%20Union%20Contract%202.txt",
-                "pdfUrl": "http://www.sanantonio.gov/portals/0/files/atty/CollectiveBargaining/PoliceCBA2016-2021.pdf",
-                "tags": [
-                    "Requires City Pay for Misconduct",
-                    "Gives officers unfair access to information",
-                    "Restricts/Delays Interrogations",
-                    "Erases misconduct records",
-                    "Limits Oversight / Discipline",
-                    "Disqualifies Complaints"
-                ],
-                "title": "San Antonio Police Union Contract 2"
-            }
-        },
-        "Fort Worth": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Texas/Fort%20Worth/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Fort-Worth-police-contract.pdf",
-                "tags": [
-                    "Limits Oversight / Discipline",
-                    "Restricts/Delays Interrogations"
-                ],
-                "title": "Fort Worth Police Union Contract"
-            }
-        },
-        "Dallas": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Texas/Dallas/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Dallas-police-contract.pdf",
-                "title": "Dallas Police Union Contract",
-                "tags": {}
-            }
-        },
-        "El Paso": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Texas/El%20Paso/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/El-Paso-police-contract.pdf",
-                "tags": [
-                    "Limits Oversight / Discipline",
-                    "Requires City Pay for Misconduct",
-                    "Disqualifies Complaints",
-                    "Restricts/Delays Interrogations"
-                ],
-                "title": "El Paso Police Union Contract"
-            }
-        }
-    },
-    "Wisconsin": {
-        "State": {
-            "Wisconsin Police Bill of Rights": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Wisconsin/State/Wisconsin%20Police%20Bill%20of%20Rights.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Wisconsin-PBR.pdf",
-                "title": "State Wisconsin Police Bill of Rights",
-                "tags": {}
-            }
-        },
-        "Milwaukee": {
-            "Police Union Contract 1": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Wisconsin/Milwaukee/Police%20Union%20Contract%201.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/milwaukee-police-contract.pdf",
-                "tags": [
-                    "Limits Oversight / Discipline",
-                    "Requires City Pay for Misconduct",
-                    "Restricts/Delays Interrogations"
-                ],
-                "title": "Milwaukee Police Union Contract 1"
-            },
-            "Police Union Contract 2": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Wisconsin/Milwaukee/Police%20Union%20Contract%202.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/milwaukee-police-contract.pdf",
-                "tags": [
-                    "Limits Oversight / Discipline",
-                    "Requires City Pay for Misconduct",
-                    "Restricts/Delays Interrogations"
-                ],
-                "title": "Milwaukee Police Union Contract 2"
-            }
-        },
-        "Madison": {
-            "supervisors": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Wisconsin/Madison/supervisors.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Madisonpolicesupervisorscontract.pdf",
-                "tags": [
-                    "Requires City Pay for Misconduct"
-                ],
-                "title": "Madison supervisors"
-            },
-            "non-supervisors": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Wisconsin/Madison/non-supervisors.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Madisonpolicenonsupervisorscontract.pdf",
-                "tags": [
-                    "Requires City Pay for Misconduct"
-                ],
-                "title": "Madison non-supervisors"
-            }
-        }
-    },
-    "California": {
+   "California": {
         "San Mateo": {
-            "pdfUrl": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/San%20Mateo/pdfUrl.txt",
-                "pdfUrl": {},
+            "San Mateo pdfUrl": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/San%20Mateo/San%20Mateo%20pdfUrl.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/san-mateo.pdf",
                 "title": "San Mateo pdfUrl",
-                "tags": {}
+                "tags": []
             }
         },
         "Eureka": {
-            "pdfUrl": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Eureka/pdfUrl.txt",
-                "pdfUrl": {},
+            "Eureka pdfUrl": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Eureka/Eureka%20pdfUrl.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Eureka-Police-Contract.pdf",
                 "title": "Eureka pdfUrl",
-                "tags": {}
+                "tags": []
             }
         },
         "Santa Ana": {
-            "non supervisor": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Santa%20Ana/non%20supervisor.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Santa-Ana-police-contract.pdf",
-                "tags": [
-                    "Requires City Pay for Misconduct"
-                ],
-                "title": "Santa Ana non supervisor"
-            },
-            "extension": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Santa%20Ana/extension.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Santa-Ana-mou-extension.pdf",
-                "title": "Santa Ana extension",
-                "tags": {}
-            },
-            "supervisor": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Santa%20Ana/supervisor.txt",
+            "Santa Ana supervisor": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Santa%20Ana/Santa%20Ana%20supervisor.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/Santa-Ana-police-supervisor-contract.pdf",
                 "title": "Santa Ana supervisor",
-                "tags": {}
+                "tags": []
+            },
+            "Santa Ana extension": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Santa%20Ana/Santa%20Ana%20extension.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Santa-Ana-mou-extension.pdf",
+                "title": "Santa Ana extension",
+                "tags": []
+            },
+            "Santa Ana non supervisor": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Santa%20Ana/Santa%20Ana%20non%20supervisor.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Santa-Ana-police-contract.pdf",
+                "title": "Santa Ana non supervisor",
+                "tags": []
             }
+
         },
         "Redwood City": {
-            "pdfUrl": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Redwood%20City/pdfUrl.txt",
-                "pdfUrl": {},
-                "title": "Redwood City pdfUrl",
-                "tags": {}
+            "Redwood City pdfUrl": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Redwood%20City/Redwood%20City%20pdfUrl.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Redwood-City-Police-Contract.PDF",
+                "title": "Redwood City Redwood City pdfUrl",
+                "tags": []
             }
         },
         "Chula Vista": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Chula%20Vista/Police%20Union%20Contract.txt",
+            "Chula Vista Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Chula%20Vista/Chula%20Vista%20Police%20Union%20Contract.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/chula-vista-police-contract.pdf",
                 "title": "Chula Vista Police Union Contract",
-                "tags": {}
+                "tags": []
             }
         },
         "Glendale": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Glendale/Police%20Union%20Contract.txt",
+            "Glendale Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Glendale/Glendale%20Police%20Union%20Contract.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/Glendale-police-contract.pdf",
+                "title": "Glendale Police Union Contract",
                 "tags": [
-                    "Gives officers unfair access to information",
                     "Limits Oversight / Discipline",
-                    "Disqualifies Complaints"
-                ],
-                "title": "Glendale Police Union Contract"
+                    "Disqualifies Complaints",
+                    "Gives officers unfair access to information"
+                ]
             }
         },
         "San Leandro": {
-            "pdfUrl": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/San%20Leandro/pdfUrl.txt",
-                "pdfUrl": {},
+            "San Leandro pdfUrl": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/San%20Leandro/San%20Leandro%20pdfUrl.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/San-Leandro-police-union-contract.pdf",
                 "title": "San Leandro pdfUrl",
-                "tags": {}
+                "tags": []
             }
         },
         "Costa Mesa": {
-            "pdfUrl": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Costa%20Mesa/pdfUrl.txt",
-                "pdfUrl": {},
+            "Costa Mesa pdfUrl": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Costa%20Mesa/Costa%20Mesa%20pdfUrl.txt",
+                "pdfUrl": "http://www.costamesaca.gov/modules/showdocument.aspx?documentid=765",
                 "title": "Costa Mesa pdfUrl",
-                "tags": {}
+                "tags": []
             }
         },
         "Burbank": {
-            "pdfUrl": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Burbank/pdfUrl.txt",
-                "pdfUrl": {},
+            "Burbank pdfUrl": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Burbank/Burbank%20pdfUrl.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Burbank-police-contract-g15k.pdf",
                 "title": "Burbank pdfUrl",
-                "tags": {}
+                "tags": []
             }
         },
         "Carlsbad": {
-            "pdfUrl": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Carlsbad/pdfUrl.txt",
-                "pdfUrl": {},
+            "Carlsbad pdfUrl": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Carlsbad/Carlsbad%20pdfUrl.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Carlsbad-police-contract.pdf",
                 "title": "Carlsbad pdfUrl",
-                "tags": {}
+                "tags": []
             }
         },
         "Hayward": {
-            "pdfUrl": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Hayward/pdfUrl.txt",
-                "pdfUrl": {},
+            "Hayward pdfUrl": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Hayward/Hayward%20pdfUrl.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Hayward-police-union-contract.pdf",
                 "title": "Hayward pdfUrl",
-                "tags": {}
+                "tags": []
             }
         },
         "Fresno": {
-            "non supervisors": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Fresno/non%20supervisors.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Fresno-police-contract.pdf",
-                "title": "Fresno non supervisors",
-                "tags": {}
-            },
-            "supervisors": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Fresno/supervisors.txt",
+            "Fresno supervisors": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Fresno/Fresno%20supervisors.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/Fresno-Police-supervisors-contract-jlfd.pdf",
                 "title": "Fresno supervisors",
-                "tags": {}
+                "tags": []
+            },
+            "Fresno non supervisors": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Fresno/Fresno%20non%20supervisors.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Fresno-police-contract.pdf",
+                "title": "Fresno non supervisors",
+                "tags": []
             }
         },
         "Bakersfield": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Bakersfield/Police%20Union%20Contract.txt",
+            "Bakersfield Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Bakersfield/Bakersfield%20Police%20Union%20Contract.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/Bakersfield-police-contract.pdf",
+                "title": "Bakersfield Police Union Contract",
                 "tags": [
                     "Limits Oversight / Discipline"
-                ],
-                "title": "Bakersfield Police Union Contract"
+                ]
             }
         },
         "Cypress": {
-            "pdfUrl": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Cypress/pdfUrl.txt",
-                "pdfUrl": {},
+            "Cypress pdfUrl": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Cypress/Cypress%20pdfUrl.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Cypress-police-contract.pdf",
                 "title": "Cypress pdfUrl",
-                "tags": {}
+                "tags": []
             }
         },
         "Richmond": {
-            "pdfUrl": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Richmond/pdfUrl.txt",
-                "pdfUrl": {},
+            "Richmond pdfUrl": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Richmond/Richmond%20pdfUrl.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Richmond-CA-police-contract.pdf",
                 "title": "Richmond pdfUrl",
-                "tags": {}
+                "tags": []
             }
         },
         "Stockton": {
-            "MOU #2": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Stockton/MOU%20%232.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Stockton-police-contract-3.pdf",
-                "title": "Stockton MOU #2",
-                "tags": {}
-            },
-            "MOU #1": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Stockton/MOU%20%231.txt",
+            "Stockton MOU #1": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Stockton/Stockton%20MOU%20%231.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/Stockton-police-contract-2.pdf",
                 "title": "Stockton MOU #1",
-                "tags": {}
+                "tags": []
             },
-            "contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Stockton/contract.txt",
+            "Stockton contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Stockton/Stockton%20contract.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/Stockton-police-contract.pdf",
+                "title": "Stockton contract",
                 "tags": [
                     "Limits Oversight / Discipline"
-                ],
-                "title": "Stockton contract"
+                ]
+            },
+            "Stockton MOU #2": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Stockton/Stockton%20MOU%20%232.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Stockton-police-contract-3.pdf",
+                "title": "Stockton MOU #2",
+                "tags": []
             }
         },
         "State": {
@@ -839,275 +245,484 @@
                 "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/State/California%20Police%20Bill%20of%20Rights.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/CApoliceofficersbillofrights.pdf",
                 "tags": [
+                    "Disqualifies Complaints",
                     "Requires City Pay for Misconduct",
                     "Gives officers unfair access to information",
-                    "Restricts/Delays Interrogations",
                     "Limits Oversight / Discipline",
-                    "Disqualifies Complaints"
+                    "Restricts/Delays Interrogations"
                 ],
                 "title": "State California Police Bill of Rights"
             }
         },
         "Los Angeles": {
-            "LA City Charter Police Disciplinary Provisions": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Los%20Angeles/LA%20City%20Charter%20Police%20Disciplinary%20Provisions.txt",
+            "Los Angeles LA City Charter Police Disciplinary Provisions": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Los%20Angeles/Los%20Angeles%20LA%20City%20Charter%20Police%20Disciplinary%20Provisions.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/Los-Angeles-City-Charter-police-disciplinary-provisions.pdf",
                 "title": "Los Angeles LA City Charter Police Disciplinary Provisions",
-                "tags": {}
+                "tags": []
             },
-            "Police Union Contract 1": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Los%20Angeles/Police%20Union%20Contract%201.txt",
+            "Lost Angeles Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Los%20Angeles/Los%20Angeles%20Police%20Union%20Contract.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/LosAngelespolicecontract-o615.pdf",
                 "tags": [
                     "Limits Oversight / Discipline",
                     "Requires City Pay for Misconduct"
                 ],
-                "title": "Los Angeles Police Union Contract 1"
-            },
-            "Police Union Contract 2": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Los%20Angeles/Police%20Union%20Contract%202.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/LosAngelespolicecontract-o615.pdf",
-                "tags": [
-                    "Limits Oversight / Discipline",
-                    "Requires City Pay for Misconduct"
-                ],
-                "title": "Los Angeles Police Union Contract 2"
+                "title": "Los Angeles Police Union Contract"
             }
         },
         "Long Beach": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Long%20Beach/Police%20Union%20Contract.txt",
+            "Long Beach Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Long%20Beach/Long%20Beach%20Police%20Union%20Contract.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/Long-Beach-police-contract.pdf",
                 "title": "Long Beach Police Union Contract",
-                "tags": {}
+                "tags": []
             }
         },
         "Berkeley": {
-            "pdfUrl": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Berkeley/pdfUrl.txt",
-                "pdfUrl": {},
+            "Berkeley pdfUrl": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Berkeley/Berkeley%20pdfUrl.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Berkeley-Police-Contract.pdf",
                 "title": "Berkeley pdfUrl",
-                "tags": {}
+                "tags": []
             }
         },
         "Rialto": {
-            "pdfUrl": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Rialto/pdfUrl.txt",
-                "pdfUrl": {},
+            "Rialto pdfUrl": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Rialto/Rialto%20pdfUrl.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Rialto-police-contract.pdf",
                 "title": "Rialto pdfUrl",
-                "tags": {}
+                "tags": []
             }
         },
         "Beverly Hills": {
-            "pdfUrl": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Beverly%20Hills/pdfUrl.txt",
-                "pdfUrl": {},
+            "Beverly Hills pdfUrl": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Beverly%20Hills/Beverly%20Hills%20pdfUrl.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Beverly-Hills-police-contract.pdf",
                 "title": "Beverly Hills pdfUrl",
-                "tags": {}
+                "tags": []
             }
         },
         "San Diego": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/San%20Diego/Police%20Union%20Contract.txt",
+            "San Diego Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/San%20Diego/San%20Diego%20Police%20Union%20Contract.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/San-Diego-police-contract.pdf",
+                "title": "San Diego Police Union Contract",
                 "tags": [
-                    "Gives officers unfair access to information",
                     "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations",
                     "Disqualifies Complaints",
-                    "Restricts/Delays Interrogations"
-                ],
-                "title": "San Diego Police Union Contract"
+                    "Gives officers unfair access to information"
+                ]
             }
         },
         "Santa Cruz": {
-            "pdfUrl": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Santa%20Cruz/pdfUrl.txt",
-                "pdfUrl": {},
-                "title": "Santa Cruz pdfUrl",
-                "tags": {}
+            "Santa Cruz pdfUrl": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Santa%20Cruz/Santa%20Cruz%20pdfUrl.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Santa-Cruz-police-contract.pdf",
+                "title": "Santa Cruz Santa Cruz pdfUrl",
+                "tags": []
             }
         },
         "San Jose": {
-            "contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/San%20Jose/contract.txt",
+            "San Jose transfer policy": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/San%20Jose/San%20Jose%20transfer%20policy.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/SanJosepolicetransferpolicy.pdf",
+                "title": "San Jose transfer policy",
+                "tags": []
+            },
+            "San Jose contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/San%20Jose/San%20Jose%20contract.txt",
                 "pdfUrl": "https://www.sanjoseca.gov/home/showdocument?id=32017",
+                "title": "San Jose contract",
                 "tags": [
                     "Limits Oversight / Discipline",
                     "Requires City Pay for Misconduct"
-                ],
-                "title": "San Jose contract"
-            },
-            "transfer policy": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/San%20Jose/transfer%20policy.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/SanJosepolicetransferpolicy.pdf",
-                "title": "San Jose transfer policy",
-                "tags": {}
+                ]
             }
         },
         "Riverside": {
-            "non supervisor": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Riverside/non%20supervisor.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Riverside-police-supervisor-contract-q4jz.pdf",
-                "tags": [
-                    "Limits Oversight / Discipline"
-                ],
-                "title": "Riverside non supervisor"
-            },
-            "supervisor": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Riverside/supervisor.txt",
+            "Riverside supervisor": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Riverside/Riverside%20supervisor.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/Riverside-police-supervisor-contract.pdf",
+                "title": "Riverside supervisor",
                 "tags": [
                     "Limits Oversight / Discipline"
-                ],
-                "title": "Riverside supervisor"
+                ]
+            },
+            "Riverside non supervisor": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Riverside/Riverside%20non%20supervisor.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Riverside-police-supervisor-contract-q4jz.pdf",
+                "title": "Riverside non supervisor",
+                "tags": [
+                    "Limits Oversight / Discipline"
+                ]
             }
         },
         "Chico": {
-            "pdfUrl": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Chico/pdfUrl.txt",
-                "pdfUrl": {},
+            "Chico pdfUrl": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Chico/Chico%20pdfUrl.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Chico-police-contract.pdf",
                 "title": "Chico pdfUrl",
-                "tags": {}
+                "tags": []
             }
         },
         "Sacramento": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Sacramento/Police%20Union%20Contract.txt",
+            "Sacramento Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Sacramento/Sacramento%20Police%20Union%20Contract.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/Sacramento-police-contract.pdf",
+                "title": "Sacramento Police Union Contract",
                 "tags": [
-                    "Requires City Pay for Misconduct",
-                    "Restricts/Delays Interrogations",
+                    "Disqualifies Complaints",
                     "Erases misconduct records",
+                    "Requires City Pay for Misconduct",
                     "Limits Oversight / Discipline",
-                    "Disqualifies Complaints"
-                ],
-                "title": "Sacramento Police Union Contract"
+                    "Restricts/Delays Interrogations"
+                ]
             }
         },
         "Los Angeles County": {
-            "pdfUrl": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Los%20Angeles%20County/pdfUrl.txt",
-                "pdfUrl": {},
+            "Los Angeles County pdfUrl": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Los%20Angeles%20County/Los%20Angeles%20County%20pdfUrl.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/LA-County-Sheriff-Union-Contract.pdf",
                 "title": "Los Angeles County pdfUrl",
-                "tags": {}
+                "tags": []
             }
         },
         "Daly City": {
-            "pdfUrl": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Daly%20City/pdfUrl.txt",
-                "pdfUrl": {},
+            "Daly City pdfUrl": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Daly%20City/Daly%20City%20pdfUrl.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Daly-City-police-contract.pdf",
                 "title": "Daly City pdfUrl",
-                "tags": {}
+                "tags": []
             }
         },
         "Oakland": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Oakland/Police%20Union%20Contract.txt",
+            "Oakland Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Oakland/Oakland%20Police%20Union%20Contract.txt",
                 "pdfUrl": "http://www2.oaklandnet.com/oakca1/groups/hrm/documents/memorandum/oak057844.pdf",
+                "title": "Oakland Oakland Police Union Contract",
                 "tags": [
                     "Limits Oversight / Discipline"
-                ],
-                "title": "Oakland Police Union Contract"
+                ]
             }
         },
         "Anaheim": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Anaheim/Police%20Union%20Contract.txt",
+            "Anaheim Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Anaheim/Anaheim%20Police%20Union%20Contract.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/Anaheim-police-contract.pdf",
+                "title": "Anaheim Anaheim Police Union Contract",
                 "tags": [
                     "Limits Oversight / Discipline",
                     "Requires City Pay for Misconduct"
-                ],
-                "title": "Anaheim Police Union Contract"
+                ]
             }
         },
         "East Palo Alto": {
-            "pdfUrl": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/East%20Palo%20Alto/pdfUrl.txt",
-                "pdfUrl": {},
+            "East Palo Alto pdfUrl": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/East%20Palo%20Alto/East%20Palo%20Alto%20pdfUrl.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/East-Palo-Alto-police-union-contract.pdf",
                 "title": "East Palo Alto pdfUrl",
-                "tags": {}
+                "tags": []
             }
         },
         "Fremont": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Fremont/Police%20Union%20Contract.txt",
+            "Fremont Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Fremont/Fremont%20Police%20Union%20Contract.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/Fremontpolicecontract.pdf",
                 "title": "Fremont Police Union Contract",
-                "tags": {}
+                "tags": []
             }
         },
         "Irvine": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Irvine/Police%20Union%20Contract.txt",
+            "Irvine Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Irvine/Irvine%20Police%20Union%20Contract.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/Irvine-CA-Police-Contract.pdf",
+                "title": "Irvine Police Union Contract",
                 "tags": [
                     "Erases misconduct records",
                     "Requires City Pay for Misconduct"
-                ],
-                "title": "Irvine Police Union Contract"
+                ]
             }
         },
         "Santa Barbara": {
-            "pdfUrl": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Santa%20Barbara/pdfUrl.txt",
-                "pdfUrl": {},
+            "Santa Barbara pdfUrl": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/Santa%20Barbara/Santa%20Barbara%20pdfUrl.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Santa-Barbara-police-contract.PDF",
                 "title": "Santa Barbara pdfUrl",
-                "tags": {}
+                "tags": []
             }
         },
         "San Francisco": {
-            "MOU": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/San%20Francisco/MOU.txt",
-                "pdfUrl": "https://www.dropbox.com/s/edbznrqj37dbpbn/San%20Francisco%20police%20contract.pdf?dl=0",
-                "title": "San Francisco MOU",
-                "tags": {}
-            },
-            "police": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/San%20Francisco/police.txt",
+            "San Francisco police": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/San%20Francisco/San%20Francisco%20police.txt",
                 "pdfUrl": "https://www.dropbox.com/s/vbciik6nkzq7x1u/San%20Francisco%20police%20contract%202b.pdf?dl=0",
+                "title": "San Francisco San Francisco police",
                 "tags": [
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations",
+                    "Gives officers unfair access to information"
+                ]
+            },
+            "San Francisco MOU": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/San%20Francisco/San%20Francisco%20MOU.txt",
+                "pdfUrl": "https://www.dropbox.com/s/edbznrqj37dbpbn/San%20Francisco%20police%20contract.pdf?dl=0",
+                "title": "San Francisco San Francisco MOU",
+                "tags": []
+            },
+            "San Francisco chiefs": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/San%20Francisco/San%20Francisco%20chiefs.txt",
+                "pdfUrl": "https://www.dropbox.com/s/41azsngl2fl9f2e/San%20Francisco%20police%20chief%20contract.pdf?dl=0",
+                "title": "San Francisco San Francisco chiefs",
+                "tags": []
+            }
+        }
+    },
+    "Colorado": {
+        "Aurora": {
+            "Aurora Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Colorado/Aurora/Aurora%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Aurora-police-contract.pdf",
+                "title": "Aurora Police Union Contract",
+                "tags": []
+            }
+        },
+        "Denver": {
+            "Denver Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Colorado/Denver/Denver%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Denver-police-contract.PDF",
+                "title": "Denver Police Union Contract",
+                "tags": []
+            }
+        }
+    },
+    "Florida": {
+        "Orlando": {
+            "Orlando Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Florida/Orlando/Orlando%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.dropbox.com/s/4ap3loq4his2bfl/Orlandopolicecontract.pdf?dl=0",
+                "title": "Orlando Police Union Contract",
+                "tags": [
+                    "Erases misconduct records",
+                    "Requires City Pay for Misconduct",
+                    "Gives officers unfair access to information",
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations"
+                ]
+            }
+        },
+        "Tampa": {
+            "Tampa non supervisor": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Florida/Tampa/Tampa%20non%20supervisor.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Tampa-police-contract.pdf",
+                "title": "Tampa non supervisor",
+                "tags": [
+                    "Disqualifies Complaints",
+                    "Requires City Pay for Misconduct",
+                    "Gives officers unfair access to information",
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations"
+                ]
+            },
+            "Tampa supervisor": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Florida/Tampa/Tampa%20supervisor.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Tampa-police-lieutenant-contract.pdf",
+                "title": "Tampa supervisor",
+                "tags": [
+                    "Disqualifies Complaints",
+                    "Requires City Pay for Misconduct",
+                    "Gives officers unfair access to information",
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations"
+                ]
+            }
+        },
+        "State": {
+            "Florida Police Bill of Rights": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Florida/State/Florida%20Police%20Bill%20of%20Rights.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Florida-PBR.pdf",
+                "tags": [
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations",
+                    "Disqualifies Complaints",
+                    "Gives officers unfair access to information"
+                ],
+                "title": "Florida Police Bill of Rights"
+            }
+        },
+        "Jacksonville": {
+            "Jacksonville non-supervisors": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Florida/Jacksonville/Jacksonville%20non-supervisors.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Jacksonville-non-supervisor-police-contract.pdf",
+                "title": "Jacksonville non-supervisors",
+                "tags": [
+                    "Erases misconduct records",
+                    "Requires City Pay for Misconduct",
+                    "Gives officers unfair access to information",
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations"
+                ]
+            },
+            "Jacksonville supervisors": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Florida/Jacksonville/Jacksonville%20supervisors.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Jacksonville-supervisor-police-contract.pdf",
+                "title": "Jacksonville supervisors",
+                "tags": [
+                    "Erases misconduct records",
+                    "Requires City Pay for Misconduct",
+                    "Gives officers unfair access to information",
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations"
+                ]
+            }
+        },
+        "St. Petersburg": {
+            "St. Petersburg non-supervisors": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Florida/St.%20Petersburg/St.%20Petersburg%20non-supervisors.txt",
+                "pdfUrl": "https://www.stpete.org/city_departments/human_resources/docs/PBA%20Contract.pdf",
+                "title": "St. Petersburg non-supervisors",
+                "tags": [
+                    "Disqualifies Complaints",
+                    "Requires City Pay for Misconduct",
+                    "Gives officers unfair access to information",
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations"
+                ]
+            }
+        },
+        "Hialeah": {
+            "Hialeah Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Florida/Hialeah/Hialeah%20Police%20Union%20Contract.txt",
+                "pdfUrl": {},
+                "title": "Hialeah Police Union Contract",
+                "tags": [
+                    "Disqualifies Complaints",
+                    "Erases misconduct records",
+                    "Requires City Pay for Misconduct",
+                    "Gives officers unfair access to information",
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations"
+                ]
+            }
+        }
+    },
+    "Hawaii": {
+        "Honolulu": {
+            "Honolulu Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Hawaii/Honolulu/Honolulu%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Honolulu-Police-Contract.pdf",
+                "title": "Honolulu Police Union Contract",
+                "tags": [
+                    "Limits Oversight / Discipline",
+                    "Gives officers unfair access to information",
+                    "Erases misconduct records",
+                    "Restricts/Delays Interrogations"
+                ]
+            }
+        }
+    },
+    "Illinois": {
+        "State": {
+            "Illinois Police Bill of Rights": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Illinois/State/Illinois%20Police%20Bill%20of%20Rights.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Illinois-PBR.pdf",
+                "tags": [
+                    "Restricts/Delays Interrogations",
+                    "Gives officers unfair access to information"
+                ],
+                "title": "State Illinois Police Bill of Rights"
+            }
+        },
+        "Chicago": {
+            "Chicago Police Union Contract Accountability Fact Sheet": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Illinois/Chicago/Chicago%20Police%20Union%20Contract%20Accountability%20Fact%20Sheet.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Illinois-PBR.pdf",
+                "title": "Chicago Chicago Police Union Contract Accountability Fact Sheet",
+                "tags": []
+            },
+            "Chicago Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Illinois/Chicago/Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Chicagopolicecontract.pdf",
+                "tags": [
+                    "Erases misconduct records",
+                    "Requires City Pay for Misconduct",
                     "Gives officers unfair access to information",
                     "Limits Oversight / Discipline",
                     "Restricts/Delays Interrogations"
                 ],
-                "title": "San Francisco police"
-            },
-            "chiefs": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/California/San%20Francisco/chiefs.txt",
-                "pdfUrl": "https://www.dropbox.com/s/41azsngl2fl9f2e/San%20Francisco%20police%20chief%20contract.pdf?dl=0",
-                "title": "San Francisco chiefs",
-                "tags": {}
+                "title": "Chicago Police Union Contract"
+            }
+        }
+    },
+    "Indiana": {
+        "Fort Wayne": {
+            "Fort Wayne Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Indiana/Fort%20Wayne/Fort%20Wayne%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Fort-Wayne-Police-contract.pdf",
+                "title": "Fort Wayne Police Union Contract",
+                "tags": [
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations",
+                    "Gives officers unfair access to information"
+                ]
+            }
+
+        },
+        "Indianapolis": {
+            "Indianapolis Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Indiana/Indianapolis/Indianapolis%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Indianapolispolicecontract.pdf",
+                "title": "Indianapolis Police Union Contract",
+                "tags": [
+                    "Limits Oversight / Discipline",
+                    "Disqualifies Complaints",
+                    "Gives officers unfair access to information"
+                ]
+            }
+        }
+    },
+    "Kansas": {
+        "Wichita": {
+            "Wichita Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Kansas/Wichita/Wichita%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Wichita-police-contract.pdf",
+                "title": "Wichita Police Union Contract",
+                "tags": [
+                    "Restricts/Delays Interrogations",
+                    "Gives officers unfair access to information",
+                    "Erases misconduct records",
+                    "Requires City Pay for Misconduct"
+                ]
             }
         }
     },
     "Kentucky": {
         "Lexington": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Kentucky/Lexington/Police%20Union%20Contract.txt",
+            "Lexington Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Kentucky/Lexington/Lexington%20Police%20Union%20Contract.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/Lexington-Police-Contract.pdf",
+                "title": "Lexington Police Union Contract",
                 "tags": [
-                    "Erases misconduct records",
                     "Limits Oversight / Discipline",
-                    "Requires City Pay for Misconduct",
-                    "Disqualifies Complaints"
-                ],
-                "title": "Lexington Police Union Contract"
+                    "Disqualifies Complaints",
+                    "Erases misconduct records",
+                    "Requires City Pay for Misconduct"
+                ]
             }
         },
         "Louisville": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Kentucky/Louisville/Police%20Union%20Contract.txt",
+            "Louisville Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Kentucky/Louisville/Louisville%20Police%20Union%20Contract.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/Louisvillepolicecontract.pdf",
+                "title": "Louisville Police Union Contract",
                 "tags": [
+                    "Disqualifies Complaints",
+                    "Erases misconduct records",
                     "Requires City Pay for Misconduct",
                     "Gives officers unfair access to information",
-                    "Restricts/Delays Interrogations",
-                    "Erases misconduct records",
                     "Limits Oversight / Discipline",
-                    "Disqualifies Complaints"
-                ],
-                "title": "Louisville Police Union Contract"
+                    "Restricts/Delays Interrogations"
+                ]
             }
         }
     },
@@ -1117,107 +732,201 @@
                 "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Louisiana/State/Louisiana%20Police%20Bill%20of%20Rights.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/Louisiana-PBR.pdf",
                 "tags": [
-                    "Gives officers unfair access to information",
-                    "Restricts/Delays Interrogations",
+                    "Disqualifies Complaints",
                     "Erases misconduct records",
+                    "Gives officers unfair access to information",
                     "Limits Oversight / Discipline",
-                    "Disqualifies Complaints"
+                    "Restricts/Delays Interrogations"
                 ],
-                "title": "State Louisiana Police Bill of Rights"
+                "title": "Louisiana Police Bill of Rights"
             }
         },
         "Baton Rouge": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Louisiana/Baton%20Rouge/Police%20Union%20Contract.txt",
+            "Baton Rouge Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Louisiana/Baton%20Rouge/Baton%20Rouge%20Police%20Union%20Contract.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/Baton-Rouge-contract.pdf",
+                "title": "Baton Rouge Police Union Contract",
                 "tags": [
-                    "Erases misconduct records",
-                    "Gives officers unfair access to information",
                     "Restricts/Delays Interrogations",
+                    "Gives officers unfair access to information",
+                    "Erases misconduct records",
                     "Requires City Pay for Misconduct"
-                ],
-                "title": "Baton Rouge Police Union Contract"
+                ]
             }
         }
     },
-    "Missouri": {
-        "St. Louis Metropolitan": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Missouri/St.%20Louis%20Metropolitan/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/St-Louis-Metro-Police-Contract.pdf",
+    "Maryland": {
+        "Baltimore": {
+            "Baltimore supervisors": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Maryland/Baltimore/Baltimore%20supervisors.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Baltimore-police-sergeants-contract-11.pdf",
+                "title": "Baltimore supervisors",
                 "tags": [
                     "Limits Oversight / Discipline",
-                    "Requires City Pay for Misconduct"
-                ],
-                "title": "St. Louis Metropolitan Police Union Contract"
-            }
-        },
-        "Kansas City, MO": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Missouri/Kansas%20City%2C%20MO/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Kansas-City-MO-Police-Contract.pdf",
-                "tags": [
-                    "Gives officers unfair access to information",
-                    "Limits Oversight / Discipline",
-                    "Restricts/Delays Interrogations"
-                ],
-                "title": "Kansas City, MO Police Union Contract"
-            }
-        }
-    },
-    "Michigan": {
-        "Detroit": {
-            "police officers": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Michigan/Detroit/police%20officers.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Detroit-police-contract.pdf",
-                "tags": [
-                    "Requires City Pay for Misconduct",
-                    "Gives officers unfair access to information",
                     "Restricts/Delays Interrogations",
                     "Erases misconduct records",
-                    "Limits Oversight / Discipline"
-                ],
-                "title": "Detroit police officers"
-            },
-            "lieutenants": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Michigan/Detroit/lieutenants.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Detroit-police-lieutenants-contract.pdf",
-                "tags": [
-                    "Erases misconduct records",
-                    "Limits Oversight / Discipline",
-                    "Requires City Pay for Misconduct",
-                    "Restricts/Delays Interrogations"
-                ],
-                "title": "Detroit lieutenants"
-            },
-            "command officers": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Michigan/Detroit/command%20officers.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Detroit-police-command-officers-contract.pdf",
-                "tags": [
-                    "Restricts/Delays Interrogations",
                     "Requires City Pay for Misconduct"
-                ],
-                "title": "Detroit command officers"
+                ]
+            },
+            "Baltimore non supervisors": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Maryland/Baltimore/Baltimore%20non%20supervisors.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Baltimore-police-contract-14-16.pdf",
+                "title": "Baltimore non supervisors",
+                "tags": [
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations",
+                    "Erases misconduct records",
+                    "Requires City Pay for Misconduct"
+                ]
             }
         }
     },
     "Massachusetts": {
         "Boston": {
-            "non supervisor": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Massachusetts/Boston/non%20supervisor.txt",
+            "Boston non supervisor": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Massachusetts/Boston/Boston%20non%20supervisor.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/Boston-police-contract.pdf",
+                "title": "Boston Boston non supervisor",
                 "tags": [
                     "Limits Oversight / Discipline"
-                ],
-                "title": "Boston non supervisor"
+                ]
             },
-            "supervisors": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Massachusetts/Boston/supervisors.txt",
+            "Boston supervisors": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Massachusetts/Boston/Boston%20supervisors.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/Boston-police-supervisors-contract-hlc6.pdf",
+                "title": "Boston Boston supervisors",
                 "tags": [
                     "Limits Oversight / Discipline"
+                ]
+            }
+        }
+    },
+    "Michigan": {
+        "Detroit": {
+            "Detroit command officers": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Michigan/Detroit/Detroit%20command%20officers.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Detroit-police-command-officers-contract.pdf",
+                "title": "Detroit Detroit command officers",
+                "tags": [
+                    "Restricts/Delays Interrogations",
+                    "Requires City Pay for Misconduct"
+                ]
+            },
+            "Detroit lieutenants": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Michigan/Detroit/Detroit%20lieutenants.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Detroit-police-lieutenants-contract.pdf",
+                "title": "Detroit Detroit lieutenants",
+                "tags": [
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations",
+                    "Erases misconduct records",
+                    "Requires City Pay for Misconduct"
+                ]
+            },
+            "Detroit police officers": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Michigan/Detroit/Detroit%20police%20officers.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Detroit-police-contract.pdf",
+                "title": "Detroit Detroit police officers",
+                "tags": [
+                    "Erases misconduct records",
+                    "Requires City Pay for Misconduct",
+                    "Gives officers unfair access to information",
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations"
+                ]
+            }
+        }
+    },
+    "Minnesota": {
+        "St. Paul": {
+            "St. Paul Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Minnesota/St.%20Paul/St.%20Paul%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/StPaulcontract.pdf",
+                "title": "St. Paul St. Paul Police Union Contract",
+                "tags": [
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations",
+                    "Erases misconduct records",
+                    "Requires City Pay for Misconduct"
+                ]
+            }
+        },
+        "State": {
+            "Minnesota Police Bill of Rights": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Minnesota/State/Minnesota%20Police%20Bill%20of%20Rights.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Minnesota-PBR.pdf",
+                "tags": [
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations",
+                    "Gives officers unfair access to information"
                 ],
-                "title": "Boston supervisors"
+                "title": "State Minnesota Police Bill of Rights"
+            }
+        }
+    },
+    "Missouri": {
+        "St. Louis Metropolitan": {
+            "St. Louis Metropolitan Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Missouri/St.%20Louis%20Metropolitan/St.%20Louis%20Metropolitan%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/St-Louis-Metro-Police-Contract.pdf",
+                "title": "St. Louis Metropolitan Police Union Contract",
+                "tags": [
+                    "Limits Oversight / Discipline",
+                    "Requires City Pay for Misconduct"
+                ]
+            }
+        },
+        "Kansas City, MO": {
+            "Kansas City, MO Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Missouri/Kansas%20City%2C%20MO/Kansas%20City%2C%20MO%20Police%20Union%20Contract.txt",
+                "pdfUrl": {},
+                "title": "Kansas City, MO Police Union Contract",
+                "tags": [
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations",
+                    "Gives officers unfair access to information"
+                ]
+            }
+        }
+    },
+    "Nebraska": {
+        "Omaha": {
+            "Omaha Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Nebraska/Omaha/Omaha%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Omaha-police-contract.pdf",
+                "title": "Omaha Omaha Police Union Contract",
+                "tags": [
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations",
+                    "Disqualifies Complaints",
+                    "Erases misconduct records"
+                ]
+            }
+        }
+    },
+   "New Jersey": {
+        "Jersey City": {
+            "Jersey City Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/New%20Jersey/Jersey%20City/Jersey%20City%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Jersey-City-Police-Contract.pdf",
+                "title": "Jersey City Police Union Contract",
+                "tags": [
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations",
+                    "Disqualifies Complaints",
+                    "Requires City Pay for Misconduct"
+                ]
+            }
+        },
+        "Newark": {
+            "Newark Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/New%20Jersey/Newark/Newark%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Newark-police-supervisors-contract.pdf",
+                "title": "Newark Police Union Contract",
+                "tags": [
+                    "Limits Oversight / Discipline",
+                    "Requires City Pay for Misconduct"
+                ]
             }
         }
     },
@@ -1226,292 +935,539 @@
             "New Mexico Police Bill of Rights": {
                 "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/New%20Mexico/State/New%20Mexico%20Police%20Bill%20of%20Rights.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/New-Mexico-PBR.pdf",
-                "title": "State New Mexico Police Bill of Rights",
-                "tags": {}
+                "title": "New Mexico Police Bill of Rights",
+                "tags": []
             }
         },
         "Albuquerque": {
-            "Police Union Contract Police Accountability Fact Sheet": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/New%20Mexico/Albuquerque/Police%20Union%20Contract%20Police%20Accountability%20Fact%20Sheet.txt",
+            "Albuquerque Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/New%20Mexico/Albuquerque/Albuquerque%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Albuquerque-police-contract.pdf",
+                "title": "Albuquerque Police Union Contract",
+                "tags": [
+                    "Erases misconduct records",
+                    "Requires City Pay for Misconduct",
+                    "Gives officers unfair access to information",
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations"
+                ]
+            },
+            "Albuquerque Police Union Contract Police Accountability Fact Sheet": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/New%20Mexico/Albuquerque/Albuquerque%20Police%20Union%20Contract%20Police%20Accountability%20Fact%20Sheet.txt",
                 "pdfUrl": "https://www.dropbox.com/s/o80983zlasmwlu5/Albuquerque%20Police%20Contract%20Police%20Accountability%20Review%207.10.15.pdf?dl=0",
                 "title": "Albuquerque Police Union Contract Police Accountability Fact Sheet",
-                "tags": {}
-            },
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/New%20Mexico/Albuquerque/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Albuquerque-police-contract.pdf",
-                "tags": [
-                    "Requires City Pay for Misconduct",
-                    "Gives officers unfair access to information",
-                    "Restricts/Delays Interrogations",
-                    "Erases misconduct records",
-                    "Limits Oversight / Discipline"
-                ],
-                "title": "Albuquerque Police Union Contract"
+                "tags": []
             }
-        }
-    },
-    "Florida": {
-        "Orlando": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Florida/Orlando/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.dropbox.com/s/4ap3loq4his2bfl/Orlandopolicecontract.pdf?dl=0",
-                "tags": [
-                    "Requires City Pay for Misconduct",
-                    "Gives officers unfair access to information",
-                    "Restricts/Delays Interrogations",
-                    "Erases misconduct records",
-                    "Limits Oversight / Discipline"
-                ],
-                "title": "Orlando Police Union Contract"
-            }
-        },
-        "Tampa": {
-            "non supervisor": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Florida/Tampa/non%20supervisor.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Tampa-police-contract.pdf",
-                "tags": [
-                    "Requires City Pay for Misconduct",
-                    "Gives officers unfair access to information",
-                    "Restricts/Delays Interrogations",
-                    "Limits Oversight / Discipline",
-                    "Disqualifies Complaints"
-                ],
-                "title": "Tampa non supervisor"
-            },
-            "supervisor": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Florida/Tampa/supervisor.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Tampa-police-lieutenant-contract.pdf",
-                "tags": [
-                    "Requires City Pay for Misconduct",
-                    "Gives officers unfair access to information",
-                    "Restricts/Delays Interrogations",
-                    "Limits Oversight / Discipline",
-                    "Disqualifies Complaints"
-                ],
-                "title": "Tampa supervisor"
-            }
-        },
-        "State": {
-            "Florida Police Bill of Rights": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Florida/State/Florida%20Police%20Bill%20of%20Rights.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Florida-PBR.pdf",
-                "tags": [
-                    "Gives officers unfair access to information",
-                    "Limits Oversight / Discipline",
-                    "Disqualifies Complaints",
-                    "Restricts/Delays Interrogations"
-                ],
-                "title": "State Florida Police Bill of Rights"
-            }
-        },
-        "Jacksonville": {
-            "supervisors": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Florida/Jacksonville/supervisors.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Jacksonville-supervisor-police-contract.pdf",
-                "tags": [
-                    "Requires City Pay for Misconduct",
-                    "Gives officers unfair access to information",
-                    "Restricts/Delays Interrogations",
-                    "Erases misconduct records",
-                    "Limits Oversight / Discipline"
-                ],
-                "title": "Jacksonville supervisors"
-            },
-            "non-supervisors": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Florida/Jacksonville/non-supervisors.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Jacksonville-non-supervisor-police-contract.pdf",
-                "tags": [
-                    "Requires City Pay for Misconduct",
-                    "Gives officers unfair access to information",
-                    "Restricts/Delays Interrogations",
-                    "Erases misconduct records",
-                    "Limits Oversight / Discipline"
-                ],
-                "title": "Jacksonville non-supervisors"
-            }
-        },
-        "St. Petersburg": {
-            "non-supervisors": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Florida/St.%20Petersburg/non-supervisors.txt",
-                "pdfUrl": "https://www.stpete.org/city_departments/human_resources/docs/PBA Contract.pdf",
-                "tags": [
-                    "Requires City Pay for Misconduct",
-                    "Gives officers unfair access to information",
-                    "Restricts/Delays Interrogations",
-                    "Limits Oversight / Discipline",
-                    "Disqualifies Complaints"
-                ],
-                "title": "St. Petersburg non-supervisors"
-            }
-        },
-        "Hialeah": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Florida/Hialeah/Police%20Union%20Contract.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/Hialeah-Police-Contract.pdf",
-                "tags": [
-                    "Requires City Pay for Misconduct",
-                    "Gives officers unfair access to information",
-                    "Restricts/Delays Interrogations",
-                    "Erases misconduct records",
-                    "Limits Oversight / Discipline",
-                    "Disqualifies Complaints"
-                ],
-                "title": "Hialeah Police Union Contract"
-            }
+
         }
     },
     "New York": {
         "Rochester": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/New%20York/Rochester/Police%20Union%20Contract.txt",
+            "Rochester Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/New%20York/Rochester/Rochester%20Police%20Union%20Contract.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/Rochester-police-contract.pdf",
+                "title": "Rochester Police Union Contract",
                 "tags": [
-                    "Gives officers unfair access to information",
-                    "Restricts/Delays Interrogations",
+                    "Disqualifies Complaints",
                     "Erases misconduct records",
+                    "Gives officers unfair access to information",
                     "Limits Oversight / Discipline",
-                    "Disqualifies Complaints"
-                ],
-                "title": "Rochester Police Union Contract"
+                    "Restricts/Delays Interrogations"
+                ]
             }
         },
         "Buffalo": {
-            "pt. 2": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/New%20York/Buffalo/pt.%202.txt",
+            "Buffalo pt. 2": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/New%20York/Buffalo/Buffalo%20pt.%202.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/BuffaloPD_Interest_Arbitration_Award_July_1_2007-June_30_2009.pdf",
                 "title": "Buffalo pt. 2",
-                "tags": {}
+                "tags": []
             },
-            "pt. 1": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/New%20York/Buffalo/pt.%201.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/BuffaloPD_Contract_Agreements.pdf",
+            "Buffalo pt. 1": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/New%20York/Buffalo/Buffalo%20pt.%201.txt",
+                "pdfUrl": {},
+                "title": "Buffalo pt. 1",
                 "tags": [
-                    "Gives officers unfair access to information",
                     "Restricts/Delays Interrogations",
-                    "Requires City Pay for Misconduct",
-                    "Disqualifies Complaints"
-                ],
-                "title": "Buffalo pt. 1"
+                    "Disqualifies Complaints",
+                    "Gives officers unfair access to information",
+                    "Requires City Pay for Misconduct"
+                ]
             }
         },
         "New York": {
-            "police officers [updated]": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/New%20York/New%20York/police%20officers%20%5Bupdated%5D.txt",
-                "pdfUrl": "https://www1.nyc.gov/assets/olr/downloads/pdf/collectivebargaining/pba-nyc-moa-2012-2017.pdf",
-                "title": "New York police officers [updated]",
-                "tags": {}
-            },
-            "sergeants": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/New%20York/New%20York/sergeants.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/NYC-police-sergeants-contract.pdf",
-                "title": "New York sergeants",
-                "tags": {}
-            },
-            "captains": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/New%20York/New%20York/captains.txt",
-                "pdfUrl": "https://www.checkthepolice.org/s/NYC-police-captains-contract.pdf",
-                "tags": [
-                    "Erases misconduct records"
-                ],
-                "title": "New York captains"
-            },
-            "captains revision": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/New%20York/New%20York/captains%20revision.txt",
+            "New York captains revision": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/New%20York/New%20York/New%20York%20captains%20revision.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/NYC-captains-reopener.pdf",
                 "title": "New York captains revision",
-                "tags": {}
+                "tags": []
             },
-            "mou": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/New%20York/New%20York/mou.txt",
+            "New York sergeants": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/New%20York/New%20York/New%20York%20sergeants.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/NYC-police-sergeants-contract.pdf",
+                "title": "New York sergeants",
+                "tags": []
+            },
+            "New York mou": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/New%20York/New%20York/New%20York%20mou.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/NYC-police-mou.pdf",
                 "title": "New York mou",
-                "tags": {}
+                "tags": []
             },
-            "detectives": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/New%20York/New%20York/detectives.txt",
-                "pdfUrl": "http://www.lris.com/wp-content/uploads/contracts/newyork_ny_police_detectives.pdf",
-                "title": "New York detectives",
-                "tags": {}
-            },
-            "non supervisors": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/New%20York/New%20York/non%20supervisors.txt",
+            "New York non supervisors": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/New%20York/New%20York/New%20York%20non%20supervisors.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/NYC-police-contract.pdf",
+                "title": "New York New York non supervisors",
                 "tags": [
                     "Erases misconduct records"
-                ],
-                "title": "New York non supervisors"
+                ]
+            },
+            "New York police officers [updated]": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/New%20York/New%20York/New%20York%20police%20officers%20%5Bupdated%5D.txt",
+                "pdfUrl": "https://www1.nyc.gov/assets/olr/downloads/pdf/collectivebargaining/pba-nyc-moa-2012-2017.pdf",
+                "title": "New York police officers [updated]",
+                "tags": []
+            },
+            "New York captains": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/New%20York/New%20York/New%20York%20captains.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/NYC-police-captains-contract.pdf",
+                "title": "New York captains",
+                "tags": [
+                    "Erases misconduct records"
+                ]
+            },
+            "New York detectives": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/New%20York/New%20York/New%20York%20detectives.txt",
+                "pdfUrl": "http://www.lris.com/wp-content/uploads/contracts/newyork_ny_police_detectives.pdf",
+                "title": "New York detectives",
+                "tags": []
             }
         }
     },
+    "Ohio": {
+        "Toledo": {
+            "Toledo Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Ohio/Toledo/Toledo%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Toledo-Police-Contract.pdf",
+                "title": "Toledo Police Union Contract",
+                "tags": [
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations",
+                    "Disqualifies Complaints",
+                    "Erases misconduct records"
+                ]
+            }
+        },
+        "Columbus": {
+            "Columbus Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Ohio/Columbus/Columbus%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/FOP-OLC-Contract-2017-2020-1.pdf",
+                "title": "Columbus Police Union Contract",
+                "tags": [
+                    "Disqualifies Complaints",
+                    "Requires City Pay for Misconduct",
+                    "Gives officers unfair access to information",
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations"
+                ]
+            }
+        },
+        "Cincinnati": {
+            "Cincinnati non-supervisors": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Ohio/Cincinnati/Cincinnati%20non-supervisors.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Cincinnatipolicenonsupervisorscontract.pdf",
+                "title": "Cincinnati non-supervisors",
+                "tags": [
+                    "Limits Oversight / Discipline",
+                    "Gives officers unfair access to information",
+                    "Erases misconduct records"
+                ]
+            },
+            "Cincinnati supervisors": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Ohio/Cincinnati/Cincinnati%20supervisors.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Cincinnatipolicesupervisorscontract.pdf",
+                "title": "Cincinnati supervisors",
+                "tags": [
+                    "Limits Oversight / Discipline",
+                    "Gives officers unfair access to information",
+                    "Erases misconduct records"
+                ]
+            }
+        },
+        "Cleveland": {
+            "Cleveland non-supervisors": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Ohio/Cleveland/Cleveland%20non-supervisors.txt",
+                "pdfUrl": "https://www.dropbox.com/s/b26fdto7ddyzx8r/Cleveland%20police%20non%20supervisors%20contract.pdf?dl=0",
+                "title": "Cleveland non-supervisors",
+                "tags": [
+                    "Disqualifies Complaints",
+                    "Erases misconduct records",
+                    "Gives officers unfair access to information",
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations"
+                ]
+            },
+            "Cleveland supervisors": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Ohio/Cleveland/Cleveland%20supervisors.txt",
+                "pdfUrl": "https://www.dropbox.com/s/50br29dv446cgmk/Cleveland%20police%20supervisors%20contract.pdf?dl=0",
+                "title": "Cleveland supervisors",
+                "tags": [
+                    "Disqualifies Complaints"
+                ]
+            }
+        }
+    },
+    "Oklahoma": {
+        "Tulsa": {
+            "Tulsa Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Oklahoma/Tulsa/Tulsa%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Tulsa-Police-Contract.pdf",
+                "title": "Tulsa Police Union Contract",
+                "tags": [
+                    "Limits Oversight / Discipline",
+                    "Gives officers unfair access to information",
+                    "Erases misconduct records",
+                    "Restricts/Delays Interrogations"
+                ]
+            }
+        },
+        "Oklahoma City": {
+            "Oklahoma City Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Oklahoma/Oklahoma%20City/Oklahoma%20City%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Oklahoma-City-police-contract.pdf",
+                "title": "Oklahoma City Oklahoma City Police Union Contract",
+                "tags": [
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations",
+                    "Gives officers unfair access to information",
+                    "Requires City Pay for Misconduct"
+                ]
+            }
+        }
+    },
+    "Pennsylvania": {
+        "Pittsburgh": {
+            "Pittsburgh Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Pennsylvania/Pittsburgh/Pittsburgh%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Pittsburg-contract.pdf",
+                "title": "Pittsburgh Police Union Contract",
+                "tags": [
+                    "Limits Oversight / Discipline",
+                    "Erases misconduct records",
+                    "Requires City Pay for Misconduct"
+                ]
+            }
+        },
+        "Philadelphia": {
+            "Philadelphia original contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Pennsylvania/Philadelphia/Philadelphia%20original%20contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/2010_Master_FOP_Contract_-_Police_booklet.pdf",
+                "title": "Philadelphia Philadelphia original contract",
+                "tags": [
+                    "Limits Oversight / Discipline",
+                    "Erases misconduct records"
+                ]
+            },
+            "Philadelphia Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Pennsylvania/Philadelphia/Philadelphia%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Philadelphia-police-union-contract.pdf",
+                "title": "Philadelphia Philadelphia Police Union Contract",
+                "tags": []
+            }
+        }
+    },
+    "Tennessee": {
+        "Metropolitan Nashville": {
+            "Metropolitan Nashville Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Tennessee/Metropolitan%20Nashville/Metropolitan%20Nashville%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Nashville-police-contract.pdf",
+                "title": "Metropolitan Nashville Metropolitan Nashville Police Union Contract",
+                "tags": []
+            }
+        },
+        "Memphis": {
+            "Memphis Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Tennessee/Memphis/Memphis%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Memphis-Police-Contract.pdf",
+                "title": "Memphis Police Union Contract",
+                "tags": [
+                    "Limits Oversight / Discipline",
+                    "Gives officers unfair access to information",
+                    "Erases misconduct records",
+                    "Restricts/Delays Interrogations"
+                ]
+            }
+        }
+    },
+    "Texas": {
+        "Houston": {
+            "Houston Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Texas/Houston/Houston%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Houstonpolicecontract.pdf",
+                "title": "Houston Police Union Contract",
+                "tags": [
+                    "Disqualifies Complaints",
+                    "Erases misconduct records",
+                    "Gives officers unfair access to information",
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations"
+                ]
+            }
+        },
+        "Laredo": {
+            "Laredo Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Texas/Laredo/Laredo%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Laredo-Police-Contract.pdf",
+                "title": "Laredo Police Union Contract",
+                "tags": [
+                    "Erases misconduct records",
+                    "Requires City Pay for Misconduct",
+                    "Gives officers unfair access to information",
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations"
+                ]
+            }
+        },
+        "Austin": {
+            "Austin Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Texas/Austin/Austin%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/AustinPoliceContract.pdf",
+                "title": "Austin Police Union Contract",
+                "tags": [
+                    "Disqualifies Complaints",
+                    "Erases misconduct records",
+                    "Requires City Pay for Misconduct",
+                    "Gives officers unfair access to information",
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations"
+                ]
+            }
+        },
+        "Corpus Christi": {
+            "Corpus Christi Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Texas/Corpus%20Christi/Corpus%20Christi%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Corpus-Christie-Police-Contract-uiao.pdf",
+                "title": "Corpus Christi Police Union Contract",
+                "tags": [
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations",
+                    "Gives officers unfair access to information",
+                    "Requires City Pay for Misconduct"
+                ]
+            }
+        },
+        "San Antonio": {
+            "San Antonio Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Texas/San%20Antonio/San%20Antonio%20Police%20Union%20Contract.txt",
+                "pdfUrl": "http://www.sanantonio.gov/portals/0/files/atty/CollectiveBargaining/PoliceCBA2016-2021.pdf",
+                "title": "San Antonio Police Union Contract",
+                "tags": [
+                    "Disqualifies Complaints",
+                    "Erases misconduct records",
+                    "Requires City Pay for Misconduct",
+                    "Gives officers unfair access to information",
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations"
+                ]
+            }
+        },
+        "Fort Worth": {
+            "Fort Worth Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Texas/Fort%20Worth/Fort%20Worth%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Fort-Worth-police-contract.pdf",
+                "title": "Fort Worth Police Union Contract",
+                "tags": [
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations"
+                ]
+            }
+        },
+        "Dallas": {
+            "Dallas Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Texas/Dallas/Dallas%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Dallas-police-contract.pdf",
+                "title": "Dallas Police Union Contract",
+                "tags": []
+            }
+        },
+        "El Paso": {
+            "El Paso Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Texas/El%20Paso/El%20Paso%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/El-Paso-police-contract.pdf",
+                "title": "El Paso Police Union Contract",
+                "tags": [
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations",
+                    "Disqualifies Complaints",
+                    "Requires City Pay for Misconduct"
+                ]
+            }
+        }
+    },
+    "Washington": {
+        "Spokane": {
+            "Spokane pt. 2": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Washington/Spokane/Spokane%20pt.%202.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Spokanepolicecontract2.PDF",
+                "title": "Spokane pt. 2",
+                "tags": [
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations",
+                    "Disqualifies Complaints",
+                    "Erases misconduct records"
+                ]
+            }
+        },
+        "Seattle": {
+            "Seattle Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Washington/Seattle/Seattle%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.seattle.gov/personnel/resources/pubs/SPOG_CBA_2015-2020.pdf",
+                "title": "Seattle Police Union Contract",
+                "tags": [
+                    "Disqualifies Complaints",
+                    "Erases misconduct records",
+                    "Requires City Pay for Misconduct",
+                    "Gives officers unfair access to information",
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations"
+                ]
+            }
+        }
+    },
+    "Washington, DC": {
+        "Washington DC Metropolitan": {
+            "Washington DC Metropolitan Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Washington%2C%20DC/Washington%20DC%20Metropolitan/Washington%20DC%20Metropolitan%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/MPD-FOP-CBA-FY-2013-2017_r.pdf",
+                "title": "Washington DC Metropolitan Washington DC Metropolitan Police Union Contract",
+                "tags": [
+                    "Disqualifies Complaints",
+                    "Erases misconduct records",
+                    "Requires City Pay for Misconduct",
+                    "Gives officers unfair access to information",
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations"
+                ]
+            }
+        }
+    },
+    "Wisconsin": {
+        "State": {
+            "Wisconsin Police Bill of Rights": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Wisconsin/State/Wisconsin%20Police%20Bill%20of%20Rights.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Wisconsin-PBR.pdf",
+                "title": "State Wisconsin Police Bill of Rights",
+                "tags": []
+            }
+        },
+        "Milwaukee": {
+            "Milwaukee Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Wisconsin/Milwaukee/Milwaukee%20Police%20Union%20Contract.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/milwaukee-police-contract.pdf",
+                "tags": [
+                    "Limits Oversight / Discipline",
+                    "Restricts/Delays Interrogations",
+                    "Requires City Pay for Misconduct"
+                ],
+                "title": "Milwaukee Police Union Contract"
+            }
+        },
+        "Madison": {
+            "Madison non-supervisors": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Wisconsin/Madison/Madison%20non-supervisors.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Madisonpolicenonsupervisorscontract.pdf",
+                "title": "Madison non-supervisors",
+                "tags": [
+                    "Requires City Pay for Misconduct"
+                ]
+            },
+            "Madison supervisors": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Wisconsin/Madison/Madison%20supervisors.txt",
+                "pdfUrl": "https://www.checkthepolice.org/s/Madisonpolicesupervisorscontract.pdf",
+                "title": "Madison Madison supervisors",
+                "tags": []
+            }
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+
     "Nevada": {
         "State": {
             "Nevada Police Bill of Rights": {
                 "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Nevada/State/Nevada%20Police%20Bill%20of%20Rights.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/Nevada-PBR.pdf",
                 "tags": [
-                    "Gives officers unfair access to information",
                     "Limits Oversight / Discipline",
-                    "Requires City Pay for Misconduct",
-                    "Restricts/Delays Interrogations"
+                    "Restricts/Delays Interrogations",
+                    "Gives officers unfair access to information",
+                    "Requires City Pay for Misconduct"
                 ],
                 "title": "State Nevada Police Bill of Rights"
             }
         },
         "Las Vegas Metropolitan": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Nevada/Las%20Vegas%20Metropolitan/Police%20Union%20Contract.txt",
+            "Las Vegas Metropolitan Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Nevada/Las%20Vegas%20Metropolitan/Las%20Vegas%20Metropolitan%20Police%20Union%20Contract.txt",
                 "pdfUrl": "http://lvppa.com/wp-content/uploads/2016/10/CBA-2016-2019-signed.pdf",
+                "title": "Las Vegas Metropolitan Police Union Contract",
                 "tags": [
-                    "Erases misconduct records",
-                    "Gives officers unfair access to information",
                     "Limits Oversight / Discipline",
+                    "Gives officers unfair access to information",
+                    "Erases misconduct records",
                     "Restricts/Delays Interrogations"
-                ],
-                "title": "Las Vegas Metropolitan Police Union Contract"
+                ]
             }
         },
         "North Las Vegas": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Nevada/North%20Las%20Vegas/Police%20Union%20Contract.txt",
+            "North Las Vegas Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Nevada/North%20Las%20Vegas/North%20Las%20Vegas%20Police%20Union%20Contract.txt",
                 "pdfUrl": "https://www.checkthepolice.org/s/North-Las-Vegas-Police-Contract.pdf",
+                "title": "North Las Vegas North Las Vegas Police Union Contract",
                 "tags": [
-                    "Gives officers unfair access to information",
                     "Limits Oversight / Discipline",
-                    "Restricts/Delays Interrogations"
-                ],
-                "title": "North Las Vegas Police Union Contract"
+                    "Restricts/Delays Interrogations",
+                    "Gives officers unfair access to information"
+                ]
             }
         },
         "Reno": {
-            "Police Union Contract": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Nevada/Reno/Police%20Union%20Contract.txt",
+            "Reno Police Union Contract": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Nevada/Reno/Reno%20Police%20Union%20Contract.txt",
                 "pdfUrl": "http://www.reno.gov/home/showdocument?id=52642",
+                "title": "Reno Police Union Contract",
                 "tags": [
-                    "Erases misconduct records",
                     "Limits Oversight / Discipline",
+                    "Erases misconduct records",
                     "Requires City Pay for Misconduct"
-                ],
-                "title": "Reno Police Union Contract"
+                ]
             }
         },
         "Henderson": {
-            "pt. 2": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Nevada/Henderson/pt.%202.txt",
+            "Henderson pt. 2": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Nevada/Henderson/Henderson%20pt.%202.txt",
                 "pdfUrl": "https://www.dropbox.com/s/z8t1o1682en9vlf/Henderson%20police%20contract%202.pdf?dl=0",
+                "title": "Henderson Henderson pt. 2",
                 "tags": [
-                    "Erases misconduct records",
-                    "Limits Oversight / Discipline"
-                ],
-                "title": "Henderson pt. 2"
+                    "Limits Oversight / Discipline",
+                    "Erases misconduct records"
+                ]
             },
-            "pt. 1": {
-                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Nevada/Henderson/pt.%201.txt",
+            "Henderson pt. 1": {
+                "textUrl": "https://raw.githubusercontent.com/PoliceContracts/PoliceContracts/master/Nevada/Henderson/Henderson%20pt.%201.txt",
                 "pdfUrl": "https://www.dropbox.com/s/tqrnq7qfe4a5cdt/Henderson%20police%20contract.pdf?dl=0",
+                "title": "Henderson Henderson pt. 1",
                 "tags": [
                     "Limits Oversight / Discipline"
-                ],
-                "title": "Henderson pt. 1"
+                ]
             }
         }
     }
