@@ -104,14 +104,11 @@ if __name__ == "__main__":
     # Regenerate the directory
     directory = generate_directory.generate()
 
-    # Go back and split up files that are too big
-    directory = split_large_files(directory)
-
     # Add filenames
     for state, jurisdictions in directory.items():
         for jurisdiction, documents in jurisdictions.items():
             for document, data in documents.items():
-                data['title'] = f"{jurisdiction} {document}"
+                data['title'] = f"{document}"
 
     # make the pdfMap
     pdf_map = utils.recursive_dd()

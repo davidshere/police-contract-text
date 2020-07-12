@@ -207,12 +207,13 @@ def find_missing_docs(map_from_web, map_from_disk):
             else:
                 # Make sure every file is there
                 for file in files:
-                    if 'Bill' in jd:
-                        expected_path = pathlib.Path('./contracts') / state / f"{jd}.txt"
+                    if 'Bill' in file:
+                        expected_path = pathlib.Path('./contracts') / state / jd / f"{file}.txt"
                     else:
-                        expected_path = pathlib.Path("./contracts") / state / jd / f"{file}.txt"
+                        expected_path = pathlib.Path("./contracts") / state / jd / f"{jd} {file}.txt"
 
                     if not expected_path.exists():
+                        print(expected_path)
                         missing_files.append(
                             (
                                 state,
@@ -221,6 +222,7 @@ def find_missing_docs(map_from_web, map_from_disk):
                                 file if 'Bill' not in jd else jd
                             )
                         )
+
     return missing_files
 
 """
